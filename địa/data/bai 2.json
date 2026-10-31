@@ -1,20 +1,326 @@
 [
     {
-        "cau_hoi": "Câu hỏi 1 Bài 2",
-        "cau_dung": "Câu đúng",
+        "cau_hoi": "Số lượng loài sinh vật bị mất dần lớn nhất thuộc về",
+        "cau_dung": "thực vật.",
         "cau_sai": [
-            "Câu sai 1",
-            "Câu sai 2",
-            "Câu sai 3"
+            "thú.",
+            "chim.",
+            "cá."
         ]
     },
     {
-        "cau_hoi": "Câu hỏi 2 Bài 2",
-        "cau_dung": "Câu đúng",
+        "cau_hoi": "Ngập úng ở Đồng bằng sông Hồng và Đồng bằng sông Cửu Long gây hậu quả nghiêm trọng cho vụ lúa nào sau đây?",
+        "cau_dung": "Hè thu.",
         "cau_sai": [
-            "Câu sai 1",
-            "Câu sai 2",
-            "Câu sai 3"
+            "Chiêm xuân.",
+            "Đông xuân.",
+            "Mùa."
+        ]
+    },
+    {
+        "cau_hoi": "Vùng núi nước ta thường xảy ra",
+        "cau_dung": "xói mòn.",
+        "cau_sai": [
+            "ngập mặn.",
+            "sóng thần.",
+            "cát bay."
+        ]
+    },
+    {
+        "cau_hoi": "Loại thiên tai nào sau đây thường xảy ra vào mùa mưa ở nước ta?",
+        "cau_dung": "Ngập lụt.",
+        "cau_sai": [
+            "Động đất.",
+            "Rét hại.",
+            "Sương muối."
+        ]
+    },
+    {
+        "cau_hoi": "Ở vùng đồi núi nước ta, biểu hiện của sự suy thoái tài nguyên đất là",
+        "cau_dung": "giảm độ phì.",
+        "cau_sai": [
+            "nhiễm phèn.",
+            "nhiễm mặn.",
+            "ngập úng."
+        ]
+    },
+    {
+        "cau_hoi": "Ở nước ta, ô nhiễm không khí tại các khu công nghiệp, khu vực sản xuất, kinh doanh là do",
+        "cau_dung": "khí thải.",
+        "cau_sai": [
+            "khói bụi.",
+            "đốt rơm, rạ.",
+            "nước thải."
+        ]
+    },
+    {
+        "cau_hoi": "Loại thiên tai nào sau đây thường xảy ra vào mùa khô ở phần lãnh thổ phía Nam nước ta?",
+        "cau_dung": "Hạn hán.",
+        "cau_sai": [
+            "Động đất.",
+            "Sương muối.",
+            "Sạt lở đất."
+        ]
+    },
+    {
+        "cau_hoi": "Nguyên nhân chủ yếu làm cho diện tích rừng nước ta suy giảm nhanh là do",
+        "cau_dung": "khai thác quá mức.",
+        "cau_sai": [
+            "cháy rừng.",
+            "chưa trồng rừng.",
+            "chiến tranh."
+        ]
+    },
+    {
+        "cau_hoi": "Tình trạng ô nhiễm đất của nước ta chủ yếu xảy ra ở",
+        "cau_dung": "các làng nghề.",
+        "cau_sai": [
+            "nơi thưa dân.",
+            "vùng núi cao.",
+            "vùng biên giới."
+        ]
+    },
+    {
+        "cau_hoi": "Loại rừng có vai trò quan trọng nhất trong việc bảo vệ đất của vùng đồi núi là",
+        "cau_dung": "rừng đầu nguồn.",
+        "cau_sai": [
+            "rừng ven biển.",
+            "rừng ngập mặn.",
+            "rừng sản xuất."
+        ]
+    },
+    {
+        "cau_hoi": "Vùng đồi trung du nước ta là nơi thường có",
+        "cau_dung": "xói mòn đất.",
+        "cau_sai": [
+            "nhiễm mặn đất.",
+            "sạt lở bờ biển.",
+            "sóng thần."
+        ]
+    },
+    {
+        "cau_hoi": "Sự suy giảm đa dạng sinh học ở nước ta không có biểu hiện nào dưới đây?",
+        "cau_dung": "Thể trạng các cá thể.",
+        "cau_sai": [
+            "Hệ sinh thái.",
+            "Số lượng loài.",
+            "Nguồn gen quý hiếm."
+        ]
+    },
+    {
+        "cau_hoi": "Tài nguyên đất của nước ta bị suy thoái nhiều nơi do",
+        "cau_dung": "khai thác quá mức.",
+        "cau_sai": [
+            "mưa lớn theo mùa.",
+            "bón phân hữu cơ.",
+            "trồng trọt luân canh."
+        ]
+    },
+    {
+        "cau_hoi": "Đa dạng sinh học nước ta bị suy giảm rõ rệt chủ yếu là do",
+        "cau_dung": "khai thác quá mức.",
+        "cau_sai": [
+            "dân số tăng nhanh.",
+            "ô nhiễm môi trường.",
+            "biến đổi khí hậu."
+        ]
+    },
+    {
+        "cau_hoi": "Biện pháp bảo vệ tài nguyên nước ở nước ta là",
+        "cau_dung": "xây hồ thủy lợi.",
+        "cau_sai": [
+            "đẩy mạnh thâm canh.",
+            "tăng khai thác gỗ.",
+            "phát triển du canh."
+        ]
+    },
+    {
+        "cau_hoi": "Biện pháp tăng độ che phủ rừng ở nước ta là",
+        "cau_dung": "tích cực trồng mới.",
+        "cau_sai": [
+            "phát triển du lịch.",
+            "lập khu bảo tồn.",
+            "khai thác lâm sản."
+        ]
+    },
+    {
+        "cau_hoi": "Biện pháp cải tạo đất hoang ở đồi núi nước ta là",
+        "cau_dung": "nông - lâm kết hợp.",
+        "cau_sai": [
+            "bón phân hoá học.",
+            "dùng thuốc diệt cỏ.",
+            "đào hố vảy cá."
+        ]
+    },
+    {
+        "cau_hoi": "Biện pháp hạn chế xói mòn đất ở đồi núi nước ta là",
+        "cau_dung": "làm ruộng bậc thang.",
+        "cau_sai": [
+            "tiến hành tăng vụ.",
+            "bón phân thích hợp.",
+            "đẩy mạnh thâm canh."
+        ]
+    },
+    {
+        "cau_hoi": "Biện pháp tăng độ phì cho đất nông nghiệp ở đồng bằng nước ta là",
+        "cau_dung": "bón phân hữu cơ.",
+        "cau_sai": [
+            "làm ruộng bậc thang.",
+            "đào hố vảy cá.",
+            "trồng cây theo băng."
+        ]
+    },
+    {
+        "cau_hoi": "Biện pháp sử dụng có hiệu quả đất trồng ở đồng bằng nước ta là",
+        "cau_dung": "đẩy mạnh thâm canh.",
+        "cau_sai": [
+            "đào hố vảy cá.",
+            "làm ruộng bậc thang.",
+            "trồng cây theo băng."
+        ]
+    },
+    {
+        "cau_hoi": "Biện pháp bảo vệ nguồn gen động vật, thực vật quý hiếm ở nước ta là",
+        "cau_dung": "ban hành Sách Đỏ.",
+        "cau_sai": [
+            "tăng khai thác rừng.",
+            "nông lâm kết hợp.",
+            "trồng rừng sản xuất."
+        ]
+    },
+    {
+        "cau_hoi": "Biện pháp canh tác nào sau đây giúp hạn chế xói mòn đất ở vùng đồi núi nước ta?",
+        "cau_dung": "Đào hố vảy cá.",
+        "cau_sai": [
+            "Bón phân hữu cơ.",
+            "Đắp đê ven sông.",
+            "Xây hồ thủy lợi."
+        ]
+    },
+    {
+        "cau_hoi": "Biện pháp nào sau đây được sử dụng trong bảo vệ đất ở đồng bằng nước ta?",
+        "cau_dung": "Chống nhiễm mặn.",
+        "cau_sai": [
+            "Trồng cây theo băng.",
+            "Đào hố kiểu vảy cá.",
+            "Làm ruộng bậc thang."
+        ]
+    },
+    {
+        "cau_hoi": "Biện pháp bảo vệ đa dạng sinh học ở nước ta là",
+        "cau_dung": "quy định việc khai thác.",
+        "cau_sai": [
+            "đẩy mạnh trồng rừng.",
+            "quy hoạch dân cư.",
+            "xây hồ thủy điện."
+        ]
+    },
+    {
+        "cau_hoi": "Biện pháp bảo vệ sinh vật ở nước ta là",
+        "cau_dung": "cấm săn bắt trái phép.",
+        "cau_sai": [
+            "tăng rừng ngập mặn.",
+            "mở rộng khu du lịch.",
+            "tăng khai thác gỗ."
+        ]
+    },
+    {
+        "cau_hoi": "Tính đa dạng sinh học cao thể hiện ở",
+        "cau_dung": "nguồn gen quý hiếm.",
+        "cau_sai": [
+            "sự phân bố sinh vật.",
+            "sự phát triển của sinh vật.",
+            "diện tích rừng lớn."
+        ]
+    },
+    {
+        "cau_hoi": "Biểu hiện tính đa dạng cao của sinh vật tự nhiên ở nước ta là",
+        "cau_dung": "loài, hệ sinh thái, gen.",
+        "cau_sai": [
+            "gen, hệ sinh thái, loài thú.",
+            "loài thú, hệ sinh thái.",
+            "loài cá, gen, hệ sinh thái."
+        ]
+    },
+    {
+        "cau_hoi": "Nguồn hải sản nước ta bị giảm sút rõ rệt nhất là ở",
+        "cau_dung": "vùng cửa sông, ven biển.",
+        "cau_sai": [
+            "ven biển và ngoài khơi.",
+            "vùng cửa sông và ngoài khơi.",
+            "các đảo ven bờ và ngoài khơi."
+        ]
+    },
+    {
+        "cau_hoi": "Giải pháp chủ yếu nào sau đây để hạn chế tình trạng xâm nhập mặn vào mùa khô ở các khu vực ven biển của nước ta?",
+        "cau_dung": "Phát triển mạng lưới thủy lợi.",
+        "cau_sai": [
+            "Phát triển giống cây chịu mặn.",
+            "Sử dụng tiết kiệm nguồn nước.",
+            "Thay đổi cơ cấu mùa vụ sản xuất."
+        ]
+    },
+    {
+        "cau_hoi": "Để đảm bảo sử dụng lâu dài nguồn lợi sinh vật nước ta cần phải",
+        "cau_dung": "cấm săn bắt động vật hoang dã.",
+        "cau_sai": [
+            "khai thác gỗ trong rừng tự nhiên.",
+            "tập trung khai thác vùng ven biển",
+            "dùng chất nổ để đánh bắt thủy sản."
+        ]
+    },
+    {
+        "cau_hoi": "Giải pháp chủ yếu nào sau đây để hạn chế tình trạng sạt lở đất vào mùa mưa ở các khu vực đồi núi của nước ta?",
+        "cau_dung": "Tăng độ che phủ cho bề mặt đất.",
+        "cau_sai": [
+            "Bảo vệ đa dạng hệ sinh thái rừng.",
+            "Cảnh báo sớm cường độ mưa.",
+            "Quy hoạch khu dân cư hợp lí."
+        ]
+    },
+    {
+        "cau_hoi": "Vấn đề nào sau đây là trở ngại lớn nhất trong việc sử dụng tài nguyên nước vào mục đích sản xuất ?",
+        "cau_dung": "Phân bố lượng nước chênh lệch lớn giữa các mùa.",
+        "cau_sai": [
+            "Phân bố lượng nước không đồng đều giữa các vùng.",
+            "Nước ngọt ở nhiều vùng bị nhiễm mặn, nhiễm phèn.",
+            "Môi trường nước ở cửa sông ngày càng bị ô nhiễm."
+        ]
+    },
+    {
+        "cau_hoi": "Biện pháp hiệu quả nhất nhằm đảm bảo sự cân bằng tài nguyên nước ở nước ta hiện nay",
+        "cau_dung": "tăng độ che phủ, xây dựng các công trình giữ nước.",
+        "cau_sai": [
+            "tăng độ che phủ, canh tác đúng kĩ thuật trên đất dốc.",
+            "xử lí nghiêm hành vi xả nước bẩn ra môi trường.",
+            "sử dụng tiết kiệm, hiệu quả và chống ô nhiễm nước."
+        ]
+    },
+    {
+        "cau_hoi": "Lưu lượng nước của một số sông bị suy giảm nghiêm trọng trong thời gian gần đây chủ yếu do",
+        "cau_dung": "ảnh hưởng của El Nino, hạn hán, nắng nóng khắc nghiệt.",
+        "cau_sai": [
+            "mùa khô sâu sắc, hiệu ứng nhà kính, gió phơn hoạt động.",
+            "hiệu ứng đô thị, mùa cạn của các sông, El Nino tác động.",
+            "nắng nóng diện rộng, áp cao ngự trị, gió phơn khô nóng."
+        ]
+    },
+    {
+        "cau_hoi": "Nguyên nhân chủ yếu làm cho đất đai nước ta dễ bị suy thoái là do",
+        "cau_dung": "Nhiệt ẩm cao, mưa theo mùa, địa hình nhiều đồi núi.",
+        "cau_sai": [
+            "Địa hình đồi núi thấp, mưa lớn và tập trung theo mùa.",
+            "Chế độ mưa phân hóa theo mùa, độ dốc của địa hình.",
+            "Địa hình nhiều đồi núi, đất đá vụn bở và dễ bóc mòn."
+        ]
+    },
+    {
+        "cau_hoi": "Nhận định nào không đúng về tình trạng ô nhiễm môi trường của nước ta hiện nay?",
+        "cau_dung": "Môi trường nước ta bị ô nhiễm do các yếu tố tự nhiên đem lại.",
+        "cau_sai": [
+            "Môi trường nước, đất, không khí đang bị ô nhiễm nghiêm trọng.",
+            "Ô nhiễm môi trường tập trung ở các đô thị lớn và vùng cửa sông.",
+            "Nhiều nơi, nồng độ chất gây ô nhiễm đã vượt tiêu chuẩn cho phép."
         ]
     }
 ]
