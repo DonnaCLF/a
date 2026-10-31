@@ -4,26 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bài ôn tập Địa</title>
-    <link rel='stylesheet' href='/common.css'>
+    <link rel='stylesheet' href='./common.css'>
 </head>
 <body>
     <audio id="correct">
-        <source src="/sound/đúng.mp3" type="audio/mpeg">
+        <source src="../sound/đúng.mp3" type="audio/mpeg">
     </audio>
     <audio id="incorrect">
-        <source src="/sound/sai.mp3" type="audio/mpeg">
+        <source src="../sound/sai.mp3" type="audio/mpeg">
     </audio>
     <audio id="regular">
-        <source src="/sound/lựa chọn.mp3" type="audio/mpeg">
+        <source src="../sound/lựa chọn.mp3" type="audio/mpeg">
     </audio>
     <audio id="change_question">
-        <source src="/sound/sang trang.mp3" type="audio/mpeg">
+        <source src="../sound/sang trang.mp3" type="audio/mpeg">
     </audio>
     <div id="display">
 
         <div id="util">
             <a id ="back" href="../index.html">Quay lại</a>
-            <button id ="sfx_toggle"><img src="/images/music button.png" alt="Music"></button>
+            <button id ="sfx_toggle"><img src="../images/music button.png" alt="Music"></button>
         </div>
 
         <p id="question"></p>
@@ -34,14 +34,14 @@
             <button id ="answear_4" class="answer"></button>
         </div>
         <div id="change_question">
-            <button id ="prev_question"><img src="/images/prev_button.png" alt="prev"></button>
-            <button id ="next_question"><img src="/images/next_button.png" alt="next"></button>
+            <button id ="prev_question"><img src="../images/prev_button.png" alt="prev"></button>
+            <button id ="next_question"><img src="../images/next_button.png" alt="next"></button>
         </div>
     </div>  
 
     <script type="module">
-        import * as TracNghiem from "/trac_nghiem.js"
-        import { sfx_toggle } from "/common.js"
+        import * as TracNghiem from "../trac_nghiem.js"
+        import { sfx_toggle } from "../common.js"
         let id = 0;
         let answers = []
         let sfx = [document.getElementById("correct"), document.getElementById("incorrect"), document.getElementById("regular"), document.getElementById("change_question")];

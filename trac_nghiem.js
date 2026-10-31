@@ -1,4 +1,4 @@
-import { SFX } from "/common.js"
+import { SFX } from "./common.js"
 
 export function nextQuestion(question, answering_list, id){
     id++;
