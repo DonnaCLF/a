@@ -1,38 +1,470 @@
 [
     {
-        "cau_hoi": "Câu hỏi 1 Bài 1",
-        "cau_dung": "Câu đúng",
-        "cau_sai": [
-            "Câu sai 1",
-            "Câu sai 2",
-            "Câu sai 3"
-        ]
-    },
-    {
-        "cau_hoi": "Câu hỏi 2 Bài 1",
-        "cau_dung": "Câu đúng",
-        "cau_sai": [
-            "Câu sai 1",
-            "Câu sai 2",
-            "Câu sai 3"
-        ]
-    },
-    {
-        "cau_hoi": "Câu hỏi 3 Bài 1",
-        "cau_dung": "Câu đúng",
-        "cau_sai": [
-            "Câu sai 1",
-            "Câu sai 2",
-            "Câu sai 3"
-        ]
-    },
-    {
-        "cau_hoi": "Câu hỏi 4 Bài 1",
-        "cau_dung": "Câu đúng",
-        "cau_sai": [
-            "Câu sai 1",
-            "Câu sai 2",
-            "Câu sai 3"
-        ]
-    }
+    "cau_hoi": "Ở vùng lãnh thổ phía Bắc, thành phần loài sinh vật nào sau đây chiếm ưu thế?",
+    "cau_dung": "Nhiệt đới.",
+    "cau_sai": [
+      "Xích đạo.",
+      "Cận nhiệt.",
+      "Ôn đới."
+    ]
+  },
+  {
+    "cau_hoi": "Ở nước ta vùng núi nào có đủ 3 đai cao?",
+    "cau_dung": "Tây Bắc.",
+    "cau_sai": [
+      "Đông Bắc.",
+      "Trường Sơn Bắc.",
+      "Trường Sơn Nam."
+    ]
+  },
+  {
+    "cau_hoi": "Đai ôn đới gió mùa trên núi chỉ có ở",
+    "cau_dung": "Hoàng Liên Sơn.",
+    "cau_sai": [
+      "Trường Sơn Nam.",
+      "Trường Sơn Bắc.",
+      "Dãy Bạch Mã."
+    ]
+  },
+  {
+    "cau_hoi": "Cảnh quan thiên nhiên tiêu biểu cho vùng lãnh thổ phía Bắc là đới rừng",
+    "cau_dung": "nhiệt đới gió mùa.",
+    "cau_sai": [
+      "ôn đới gió mùa.",
+      "cận nhiệt đới.",
+      "gió mùa."
+    ]
+  },
+  {
+    "cau_hoi": "Loại đất chiếm diện tích lớn nhất trong đai nhiệt đới gió mùa là",
+    "cau_dung": "đất feralit đỏ vàng.",
+    "cau_sai": [
+      "đất phù sa.",
+      "đất phù sa cổ.",
+      "đất feralit có mùn."
+    ]
+  },
+  {
+    "cau_hoi": "Khí hậu miền Nam Trung Bộ và Nam Bộ có đặc điểm nào sau đây?",
+    "cau_dung": "Tính chất cận xích đạo.",
+    "cau_sai": [
+      "Nóng, ẩm quanh năm.",
+      "Tính chất ôn hòa.",
+      "Khô hạn quanh năm."
+    ]
+  },
+  {
+    "cau_hoi": "Thiên nhiên vùng núi nào sau đây mang sắc thái cận nhiệt đới gió mùa?",
+    "cau_dung": "Vùng núi Đông Bắc.",
+    "cau_sai": [
+      "Vùng núi cao Tây Bắc.",
+      "Vùng núi Trường Sơn.",
+      "Vùng núi thấp Tây Bắc."
+    ]
+  },
+  {
+    "cau_hoi": "Thiên nhiên phần lãnh thổ phía Nam nước ta mang sắc thái của vùng khí hậu",
+    "cau_dung": "cận xích đạo gió mùa.",
+    "cau_sai": [
+      "ôn đới gió mùa.",
+      "cận nhiệt đới gió mùa.",
+      "nhiệt đới gió mùa."
+    ]
+  },
+  {
+    "cau_hoi": "Thành phần loài chiếm ưu thế ở phần lãnh thổ phía Nam là",
+    "cau_dung": "xích đạo và nhiệt đới.",
+    "cau_sai": [
+      "nhiệt đới và cận nhiệt đới.",
+      "cận nhiệt đới và xích đạo.",
+      "cận xích đạo và ôn đới."
+    ]
+  },
+  {
+    "cau_hoi": "Nhân tố chủ yếu nào sau đây tạo nên sự phân hoá thiên nhiên theo Bắc - Nam ở nước ta?",
+    "cau_dung": "Chênh lệch về vĩ độ địa lí.",
+    "cau_sai": [
+      "Hoạt động của gió mùa.",
+      "Sự phân bậc của địa hình.",
+      "Tác động của Biển Đông."
+    ]
+  },
+  {
+    "cau_hoi": "Sự phân hóa thiên nhiên theo độ cao ở nước ta biểu hiện rõ qua các thành phần",
+    "cau_dung": "khí hậu, đất đai, sinh vật.",
+    "cau_sai": [
+      "sông ngòi, đất đai, khí hậu.",
+      "sinh vật, đất đai, sông ngòi.",
+      "khí hậu, sinh vật, sông ngòi."
+    ]
+  },
+  {
+    "cau_hoi": "Đai cao cận nhiệt đới gió mùa trên núi ở miền Bắc hạ thấp hơn so với miền Nam chủ yếu vì",
+    "cau_dung": "có nền nhiệt độ thấp hơn.",
+    "cau_sai": [
+      "có nền nhiệt độ cao hơn.",
+      "có nền địa hình thấp hơn.",
+      "có nền địa hình cao hơn."
+    ]
+  },
+  {
+    "cau_hoi": "Ở vùng lãnh thổ phía Nam, thành phần loài chiếm ưu thế là",
+    "cau_dung": "xích đạo và nhiệt đới.",
+    "cau_sai": [
+      "nhiệt đới và cận nhiệt đới.",
+      "cận nhiệt đới và xích đạo.",
+      "cận xích đạo và cận nhiệt đới."
+    ]
+  },
+  {
+    "cau_hoi": "Sự phân hóa khí hậu nước ta theo chiều Bắc – Nam chủ yếu do",
+    "cau_dung": "sự thay đổi vĩ độ địa lí và tác động khác nhau của gió mùa Đông Bắc.",
+    "cau_sai": [
+      "sự phân hóa độ cao địa hình và hoạt động thường xuyên của Tín phong.",
+      "ảnh hưởng của Biển Đông và hướng các dãy núi vòng cung.",
+      "sự khác nhau về thổ nhưỡng và mạng lưới sông ngòi."
+    ]
+  },
+  {
+    "cau_hoi": "Khí hậu của phần phía Nam",
+    "cau_dung": "có 2 mùa mưa và khô rõ rệt.",
+    "cau_sai": [
+      "khí hậu nóng quanh năm.",
+      "không có tháng nào dưới 25°C.",
+      "có mưa phùn vào mùa đông."
+    ]
+  },
+  {
+    "cau_hoi": "Hướng chính của các dãy núi ở miền Bắc và Đông Bắc Bắc Bộ là",
+    "cau_dung": "hướng chủ yếu là các cánh cung.",
+    "cau_sai": [
+      "hướng chủ yếu là tây - đông.",
+      "hướng chủ yếu là tây bắc - đông nam.",
+      "hướng chủ yếu là bắc - nam."
+    ]
+  },
+  {
+    "cau_hoi": "Miền Bắc ở độ cao trên 600 - 700 m, miền Nam phải trên độ cao 900 - 1000 m mới có khí hậu cận nhiệt đới chủ yếu do",
+    "cau_dung": "nhiệt độ trung bình miền Nam cao hơn.",
+    "cau_sai": [
+      "địa hình miền Bắc cao hơn.",
+      "miền Bắc giáp biển nhiều hơn miền Nam.",
+      "miền Bắc mưa nhiều hơn."
+    ]
+  },
+  {
+    "cau_hoi": "Đặc điểm khí hậu nào sau đây thuộc đai ôn đới gió mùa trên núi?",
+    "cau_dung": "Nhiệt độ trung bình năm dưới 15°C.",
+    "cau_sai": [
+      "Nhiệt độ tháng lạnh nhất trên 10°C.",
+      "Nhiệt độ tháng nóng nhất trên 35°C.",
+      "Nhiệt độ trung bình năm dưới 5°C."
+    ]
+  },
+  {
+    "cau_hoi": "Mùa khô ở Bắc Bộ không sâu sắc như ở Nam Bộ nước ta chủ yếu do",
+    "cau_dung": "ảnh hưởng của gió mùa Đông Bắc.",
+    "cau_sai": [
+      "mạng lưới sông ngòi dày đặc hơn.",
+      "sự điều tiết của các hồ chứa nước.",
+      "nguồn nước ngầm phong phú hơn."
+    ]
+  },
+  {
+    "cau_hoi": "Điểm giống nhau về khí hậu của Duyên hải Nam Trung Bộ và Tây Nguyên là",
+    "cau_dung": "phân chia hai mùa mưa khô rõ rệt.",
+    "cau_sai": [
+      "mùa mưa lùi dần về thu đông.",
+      "biên độ nhiệt trung bình năm lớn.",
+      "mùa hạ có gió phơn Tây Nam."
+    ]
+  },
+  {
+    "cau_hoi": "Đặc trưng khí hậu của phần lãnh thổ phía Bắc là",
+    "cau_dung": "Nhiệt đới ẩm gió mùa có mùa đông lạnh.",
+    "cau_sai": [
+      "Cận nhiệt đới gió mùa có mùa đông lạnh.",
+      "Cận xích đạo gió mùa nóng quanh năm.",
+      "Nhiệt đới khô gió mùa có mùa đông lạnh."
+    ]
+  },
+  {
+    "cau_hoi": "Ở nước ta, thiên nhiên vùng núi Tây Bắc khác với Đông Bắc ở đặc điểm nào sau đây?",
+    "cau_dung": "Mùa đông đến muộn và kết thúc sớm hơn.",
+    "cau_sai": [
+      "Mùa đông đến sớm hơn ở vùng núi thấp.",
+      "Mùa mưa đến sớm và kết thúc muộn hơn.",
+      "Khí hậu lạnh chủ yếu do gió mùa Đông Bắc."
+    ]
+  },
+  {
+    "cau_hoi": "Sự phân hóa thiên nhiên giữa hai khu vực Đông Trường Sơn và Tây Nguyên chủ yếu do",
+    "cau_dung": "tác động của gió mùa và hướng các dãy núi.",
+    "cau_sai": [
+      "độ cao địa hình và ảnh hưởng của biển.",
+      "ảnh hưởng của biển và lớp phủ thực vật.",
+      "độ cao địa hình và hướng các dãy núi."
+    ]
+  },
+  {
+    "cau_hoi": "Thiên nhiên vùng núi Đông Bắc khác Tây Bắc ở đặc điểm nào sau đây?",
+    "cau_dung": "mùa đông lạnh đến sớm hơn ở vùng núi thấp.",
+    "cau_sai": [
+      "mùa đông bớt lạnh nhưng khô hơn.",
+      "mùa hạ đến sớm, đôi khi có gió Tây.",
+      "khí hậu lạnh chủ yếu do độ cao của địa hình."
+    ]
+  },
+  {
+    "cau_hoi": "Biểu hiện nào sau đây đúng với thiên nhiên ở đai nhiệt đới gió mùa?",
+    "cau_dung": "nền nhiệt cao, đất feralit, sinh vật nhiệt đới phong phú.",
+    "cau_sai": [
+      "khí hậu mát, đất feralit có mùn, sinh vật cận nhiệt.",
+      "nhiệt độ thấp, đất mùn thô, sinh vật ôn đới.",
+      "nền nhiệt cao, đất mùn thô, sinh vật nhiệt đới."
+    ]
+  },
+  {
+    "cau_hoi": "Nguyên nhân chủ yếu dẫn đến sự phân hóa thiên nhiên theo Đông - Tây ở vùng đồi núi nước ta là",
+    "cau_dung": "tác động của gió mùa với hướng của các dãy núi.",
+    "cau_sai": [
+      "độ cao phân thành các bậc địa hình khác nhau.",
+      "độ dốc địa hình theo hướng Tây Bắc - Đông Nam.",
+      "tác động của con người và sự biến đổi khí hậu."
+    ]
+  },
+  {
+    "cau_hoi": "Sông ngòi miền Bắc và Đông Bắc Bắc Bộ có đặc điểm là",
+    "cau_dung": "dày đặc, chảy theo hướng vòng cung và tây bắc - đông nam.",
+    "cau_sai": [
+      "dày đặc, sông ngòi đều chảy theo hướng vòng cung.",
+      "dày đặc, đều chảy theo hướng tây bắc - đông nam.",
+      "dày đặc, chảy theo hướng tây bắc - đông nam và tây - đông."
+    ]
+  },
+  {
+    "cau_hoi": "So với miền Tây Bắc và Bắc Trung Bộ, miền Bắc và Đông Bắc Bắc Bộ có mùa đông",
+    "cau_dung": "đến sớm và kết thúc muộn hơn, nhiệt độ xuống thấp.",
+    "cau_sai": [
+      "ngắn và nhiệt độ trung bình năm trên 20°C.",
+      "thường đến muộn và kết thúc muộn hơn, nhiệt độ ít thay đổi.",
+      "đến sớm và kết thúc sớm hơn, nhiệt độ cao hơn."
+    ]
+  },
+  {
+    "cau_hoi": "Miền Tây Bắc và Bắc Trung Bộ có mùa đông",
+    "cau_dung": "đến muộn, kết thúc sớm; vùng núi cao có nền nhiệt thấp.",
+    "cau_sai": [
+      "đến sớm, kéo dài; nhiệt độ trung bình năm nhìn chung rất thấp.",
+      "lạnh sâu, kéo dài; nhiệt độ nhiều nơi xuống rất thấp.",
+      "đến sớm, kết thúc muộn; nhiệt độ trung bình năm khá cao."
+    ]
+  },
+  {
+    "cau_hoi": "Đặc điểm nào sau đây đúng với địa hình của miền Bắc và Đông Bắc Bắc Bộ?",
+    "cau_dung": "Đồi núi thấp và đồng bằng là chủ yếu, núi có hướng vòng cung.",
+    "cau_sai": [
+      "Núi cao là chủ yếu, núi có hướng tây bắc – đông nam.",
+      "Đồi và núi thấp là chủ yếu, núi có hướng tây – đông.",
+      "Đồng bằng là chủ yếu, chỉ có một số núi sót."
+    ]
+  },
+  {
+    "cau_hoi": "Khí hậu của miền Nam Trung Bộ và Nam Bộ có",
+    "cau_dung": "tính cận xích đạo, phân hóa rõ giữa sườn Đông và sườn Tây.",
+    "cau_sai": [
+      "tính cận nhiệt, nền nhiệt thấp và biên độ nhiệt năm lớn.",
+      "tính cận xích đạo, nền nhiệt cao và biên độ nhiệt năm lớn.",
+      "tính nhiệt đới, nền nhiệt thấp và sự phân mùa rất rõ."
+    ]
+  },
+  {
+    "cau_hoi": "Sự phân hóa thiên nhiên theo Đông - Tây ở nước ta chủ yếu chịu tác động của",
+    "cau_dung": "các quá trình nội lực, biển, gió mùa và hướng các dãy núi.",
+    "cau_sai": [
+      "quá trình xâm thực ở đồi núi, bồi tụ nhanh các đồng bằng.",
+      "hình dạng lãnh thổ, gió đông bắc, tây nam và địa hình núi.",
+      "Tín phong bán cầu Bắc, gió mùa mùa hạ, địa hình đồi núi."
+    ]
+  },
+  {
+    "cau_hoi": "Nguyên nhân nào sau đây là chủ yếu dẫn đến khí hậu nước ta phân hóa theo chiều Bắc – Nam?",
+    "cau_dung": "Sự thay đổi của góc nhập xạ và hoạt động của gió mùa.",
+    "cau_sai": [
+      "Số giờ chiếu sáng trong năm và dải hội tụ nội chí tuyến.",
+      "Dải hội tụ nội chí tuyến và sự thay đổi của góc nhập xạ.",
+      "Hoạt động của gió mùa và số giờ chiếu sáng trong năm."
+    ]
+  },
+  {
+    "cau_hoi": "Khí hậu miền Nam phân thành hai mùa rõ rệt chủ yếu do tác động kết hợp của",
+    "cau_dung": "gió hướng Tây Nam, Tín phong bán cầu Bắc và hướng địa hình.",
+    "cau_sai": [
+      "gió mùa Tây Nam, Tín phong bán cầu Bắc và độ cao địa hình.",
+      "Tín phong Đông Bắc, dải hội tụ nhiệt đới và áp thấp nhiệt đới.",
+      "Tín phong bán cầu Bắc với địa hình dãy núi Trường Sơn Nam."
+    ]
+  },
+  {
+    "cau_hoi": "Phần lãnh thổ phía Bắc nước ta có biên độ nhiệt trung bình năm cao hơn phần lãnh thổ phía Nam chủ yếu do",
+    "cau_dung": "vị trí gần chí tuyến Bắc và tác động của gió mùa Đông Bắc.",
+    "cau_sai": [
+      "nằm ở gần vùng ngoại chí tuyến, tiếp giáp với Biển Đông.",
+      "nằm ở vùng nội chí tuyến, trong khu vực gió mùa châu Á.",
+      "vị trí ở xa xích đạo và tác động của Tín phong bán cầu Bắc."
+    ]
+  },
+  {
+    "cau_hoi": "Đặc điểm thiên nhiên nổi bật của miền Bắc và Đông Bắc Bắc Bộ nước ta là",
+    "cau_dung": "gió mùa Đông Bắc hoạt động mạnh, mùa đông lạnh nhất ở nước ta.",
+    "cau_sai": [
+      "khí hậu cận xích đạo gió mùa với nền nhiệt độ cao quanh năm.",
+      "địa hình có các sơn nguyên bóc mòn và các cao nguyên badan.",
+      "địa hình cao, các dãy núi xen kẽ thung lũng sông hướng tây – đông."
+    ]
+  },
+  {
+    "cau_hoi": "Phần lãnh thổ phía Bắc nước ta vào mùa đông có nhiều biến động thời tiết chủ yếu do tác động của",
+    "cau_dung": "Tín phong bán cầu Bắc, gió mùa Đông Bắc và hoạt động của frông.",
+    "cau_sai": [
+      "gió mùa Đông Bắc, hoạt động của frông và hướng của các dãy núi.",
+      "hoạt động của frông, gió mùa Đông Bắc và các dãy núi vòng cung.",
+      "vùng đồi núi rộng và Tín phong bán cầu Bắc, hoạt động của frông."
+    ]
+  },
+  {
+    "cau_hoi": "Phần lãnh thổ phía Nam nước ta nóng quanh năm chủ yếu do tác động của",
+    "cau_dung": "vị trí gần xích đạo, Tín phong bán cầu Bắc, gió hướng tây nam.",
+    "cau_sai": [
+      "thời gian mặt trời lên thiên đỉnh, gió mùa Đông Bắc, dải hội tụ.",
+      "gió thổi từ cao áp Xibia, vị trí xa chí tuyến, áp thấp nhiệt đới.",
+      "vị trí nằm trong vùng nội chí tuyến, frông, gió mùa Tây Nam."
+    ]
+  },
+  {
+    "cau_hoi": "Nguyên nhân chủ yếu nào sau đây làm cho miền Bắc và Đông Bắc Bắc Bộ có mùa đông lạnh và kéo dài nhất cả nước?",
+    "cau_dung": "hướng các dãy núi, vị trí địa lí, nằm ở vĩ độ cao nhất cả nước.",
+    "cau_sai": [
+      "vị trí địa lí nằm gần chí tuyến Bắc, giáp biển Đông rộng lớn.",
+      "địa hình đồi núi thấp, phân hóa đa dạng theo độ cao địa hình.",
+      "địa hình nghiêng theo hướng Tây Bắc - Đông Nam, nhiều đồi núi."
+    ]
+  },
+  {
+    "cau_hoi": "Đặc điểm tự nhiên chủ yếu nào sau đây làm cho miền Bắc và Đông Bắc Bắc Bộ có cơ cấu cây trồng đa dạng?",
+    "cau_dung": "Khí hậu phân hóa, nhiều kiểu địa hình, có các loại đất khác nhau.",
+    "cau_sai": [
+      "Khí hậu có sự phân mùa, nguồn nước dồi dào, địa hình nhiều đồi núi.",
+      "Sinh vật giàu thành phần loài, địa hình phân bậc, có mùa đông lạnh.",
+      "Có nhiều dạng địa hình, tỉ lệ đất feralit lớn, nguồn nước phong phú."
+    ]
+  },
+  {
+    "cau_hoi": "Ý nào sau đây là đặc điểm địa hình của miền Tây Bắc và Bắc Trung Bộ?",
+    "cau_dung": "Địa hình cao nhất nước ta, núi có hướng tây bắc – đông nam là chủ yếu.",
+    "cau_sai": [
+      "Vùng Trường Sơn Bắc hầu hết là núi cao, hướng tây – đông.",
+      "Các dãy núi cao nằm sát biên giới Việt – Lào có độ cao trên 2000m.",
+      "Có nhiều đỉnh núi cao trên 2000m, các đồng bằng châu thổ rộng lớn."
+    ]
+  },
+  {
+    "cau_hoi": "Đặc điểm nào sau đây đúng với địa hình của miền Nam Trung Bộ và Nam Bộ?",
+    "cau_dung": "Gồm các khối núi cổ, cao nguyên badan, sơn nguyên bóc mòn và đồng bằng.",
+    "cau_sai": [
+      "Gồm các dãy núi cao, cao nguyên đá vôi, thung lũng rộng và đồng bằng.",
+      "Địa hình đa dạng nhưng chủ yếu là đồi núi thấp và đồng bằng ven biển.",
+      "Chủ yếu là đồi núi thấp, đồng bằng châu thổ rộng lớn."
+    ]
+  },
+  {
+    "cau_hoi": "Đặc điểm tự nhiên chủ yếu nào sau đây làm cho miền Tây Bắc và Bắc Trung Bộ có cơ cấu cây trồng đa dạng?",
+    "cau_dung": "Khí hậu có sự phân hóa, nhiều kiểu địa hình, phong phú về loại đất.",
+    "cau_sai": [
+      "Khí hậu phân mùa rõ rệt, nguồn nước mặt dồi dào, sinh vật phong phú.",
+      "Địa hình núi cao, nhiều kiểu khí hậu, mạng lưới sông ngòi dày đặc.",
+      "Nhiều loài sinh vật, địa hình phân bậc rõ rệt, diện tích đất feralit lớn."
+    ]
+  },
+  {
+    "cau_hoi": "Miền Tây Bắc và Bắc Trung Bộ có tính chất nhiệt đới tăng dần so với miền Bắc và Đông Bắc Bắc Bộ chủ yếu do tác động của",
+    "cau_dung": "vĩ độ địa lí, hướng của các dãy núi, gió mùa Đông Bắc giảm sút.",
+    "cau_sai": [
+      "gió hướng đông bắc tăng cường, độ cao của địa hình, vị trí địa lí.",
+      "gió Tây hoạt động mạnh, dải hội tụ, áp thấp nhiệt đới tồn tại lâu.",
+      "vị trí gần xích đạo, Tín phong bán cầu Bắc ưu thế, núi thấp hơn."
+    ]
+  },
+  {
+    "cau_hoi": "Đặc điểm nổi bật của thiên nhiên miền Tây Bắc và Bắc Trung Bộ nước ta là",
+    "cau_dung": "địa hình cao, các dãy núi xen thung lũng sông có hướng tây bắc - đông nam.",
+    "cau_sai": [
+      "khí hậu cận xích đạo gió mùa với nền nhiệt độ cao quanh năm.",
+      "đồi núi thấp chiếm ưu thế với các dãy núi có hướng vòng cung.",
+      "gió mùa Đông Bắc hoạt động mạnh, tạo nên mùa đông lạnh nhất ở nước ta."
+    ]
+  },
+  {
+    "cau_hoi": "Đặc điểm thiên nhiên nổi bật của miền Nam Trung Bộ và Nam Bộ nước ta là",
+    "cau_dung": "khí hậu cận xích đạo gió mùa với nền nhiệt độ cao quanh năm.",
+    "cau_sai": [
+      "đồi núi thấp chiếm ưu thế với các dãy núi có hướng vòng cung.",
+      "địa hình cao, các dãy núi xen thung lũng sông có hướng tây bắc - đông nam.",
+      "gió mùa Đông Bắc hoạt động mạnh, tạo nên mùa đông lạnh nhất ở nước ta."
+    ]
+  },
+  {
+    "cau_hoi": "Vùng khí hậu Nam Bộ có nhiệt độ trung bình năm cao hơn vùng khí hậu Đông Bắc Bộ chủ yếu do",
+    "cau_dung": "địa hình thấp, không chịu tác động của gió mùa Đông Bắc, gần xích đạo.",
+    "cau_sai": [
+      "chịu tác động của gió tây nam, không có mùa đông lạnh, vùng biển rộng.",
+      "bờ biển dài, nằm xa chí tuyến, chịu tác động của Tín phong bán cầu Bắc.",
+      "gió mùa Tây Nam ảnh hưởng mạnh, đồng bằng rộng, có các vùng trũng."
+    ]
+  },
+  {
+    "cau_hoi": "Miền Nam Trung Bộ và Nam Bộ có biên độ nhiệt năm nhỏ chủ yếu do tác động của",
+    "cau_dung": "thời gian Mặt Trời lên thiên đỉnh, gió, vị trí nằm ở gần vùng xích đạo.",
+    "cau_sai": [
+      "các gió mùa hạ, thời gian Mặt Trời lên thiên đỉnh, gió mùa Đông Bắc.",
+      "địa hình cao nguyên, gió mùa đông, thời gian Mặt Trời lên thiên đỉnh.",
+      "vùng biển rộng, thời gian Mặt Trời lên thiên đỉnh, vị trí ở xa chí tuyến."
+    ]
+  },
+  {
+    "cau_hoi": "Phần lãnh thổ phía Nam nước ta có nền nhiệt, ẩm cao chủ yếu do tác động của",
+    "cau_dung": "vị trí ở gần xích đạo, lượng bức xạ lớn, gió hướng tây nam, dải hội tụ.",
+    "cau_sai": [
+      "thời gian chiếu sáng dài, gió tây nam từ Bắc Ấn Độ Dương đến, bão.",
+      "vị trí trong vùng nội chí tuyến, Tín phong bán cầu Bắc, gió Tây, bão.",
+      "gió mùa Tây Nam, gió mùa Đông Bắc, Mặt Trời lên thiên đỉnh, frông."
+    ]
+  },
+  {
+    "cau_hoi": "Miền Bắc và Đông Bắc Bắc Bộ có biên độ nhiệt độ năm lớn chủ yếu do tác động của",
+    "cau_dung": "thời gian mặt trời lên thiên đỉnh, gió, vị trí nằm cách xa vùng xích đạo.",
+    "cau_sai": [
+      "vị trí nằm gần chí tuyến, gió mùa hạ, thời gian mặt trời lên thiên đỉnh.",
+      "gió mùa Tây Nam, thời gian mặt trời lên thiên đỉnh, nằm gần chí tuyến.",
+      "Tín Phong bán cầu bắc, Thời gian mặt trời lên thiên đỉnh, xa xích đạo."
+    ]
+  },
+  {
+    "cau_hoi": "Miền Nam Trung Bộ và Nam Bộ có nhiều loài thực vật nhiệt đới, xích đạo vì",
+    "cau_dung": "khí hậu cận xích đạo gió mùa, các loài có nguồn gốc từ Mã Lai- Inđônêxia.",
+    "cau_sai": [
+      "khí hậu có mùa đông lạnh, các loại di cư từ phương Nam và phương Bắc.",
+      "khí hậu nhiệt đới gió mùa, các loài có nguồn gốc từ Ấn Độ - Mianma đến.",
+      "khí hậu nhiệt đới ẩm gió mùa, có sự di cư của các loài từ Himalaya xuống."
+    ]
+  },
+  {
+    "cau_hoi": "Thiên nhiên phần lãnh thổ phía Nam nước ta khác với phần lãnh thổ phía Bắc chủ yếu do tác động của",
+    "cau_dung": "gió đông bắc và tây nam, vị trí gần xích đạo, hai lần Mặt trời lên thiên đỉnh.",
+    "cau_sai": [
+      "vị trí trong vùng nội chí tuyến, gió đông bắc, dải hội tụ và áp thấp nhiệt đới.",
+      "gió tây nam, vị trí ở gần với bán cầu Nam, thời gian Mặt trời lên thiên đỉnh.",
+      "vị trí ở nằm xa chí tuyến, Tín phong bán cầu Bắc, gió mùaTây Nam và bão."
+    ]
+  }
 ]
