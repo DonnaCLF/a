@@ -1,38 +1,785 @@
 [
     {
-        "cau_hoi": "Câu hỏi 1 Bài 1",
-        "cau_dung": "Câu đúng",
+        "cau_hoi": "Nguyên tắc hoạt động nào sau đây thuộc về tổ chức Liên hợp quốc?",
+        "cau_dung": "Bình đẳng về chủ quyền của tất cả các thành viên.",
         "cau_sai": [
-            "Câu sai 1",
-            "Câu sai 2",
-            "Câu sai 3"
+            "Cho phép can thiệp vào công việc nội bộ các nước.",
+            "Giải quyết tranh chấp bằng vũ lực.",
+            "Đe dọa sử dụng vũ lực trong quan hệ quốc tế."
         ]
     },
     {
-        "cau_hoi": "Câu hỏi 2 Bài 1",
-        "cau_dung": "Câu đúng",
+        "cau_hoi": "Nội dung nào sau đây không phải là nguyên tắc hoạt động của Liên hợp quốc?",
+        "cau_dung": "Can thiệp vào công việc nội bộ của các quốc gia.",
         "cau_sai": [
-            "Câu sai 1",
-            "Câu sai 2",
-            "Câu sai 3"
+            "Tôn trọng các nghĩa vụ quốc tế và luật pháp quốc tế.",
+            "Không đe dọa bằng vũ lực hoặc sử dụng vũ lực trong quan hệ quốc tế.",
+            "Không can thiệp vào công việc nội bộ của các quốc gia."
         ]
     },
     {
-        "cau_hoi": "Câu hỏi 3 Bài 1",
-        "cau_dung": "Câu đúng",
+        "cau_hoi": "Theo Hiến chương Liên hợp quốc, các tranh chấp quốc tế phải được giải quyết bằng biện pháp gì?",
+        "cau_dung": "Biện pháp hòa bình.",
         "cau_sai": [
-            "Câu sai 1",
-            "Câu sai 2",
-            "Câu sai 3"
+            "Can thiệp vũ trang khu vực.",
+            "Biện pháp quân sự cưỡng chế.",
+            "Sử dụng vũ lực hạn chế."
         ]
     },
     {
-        "cau_hoi": "Câu hỏi 4 Bài 1",
-        "cau_dung": "Câu đúng",
+        "cau_hoi": "Sự kiện diễn ra vào ngày 12/6/1941 liên quan đến quá trình thành lập Liên hợp quốc là gì?",
+        "cau_dung": "Các nước Đồng minh ký tuyên bố hợp tác trong và sau chiến tranh.",
         "cau_sai": [
-            "Câu sai 1",
-            "Câu sai 2",
-            "Câu sai 3"
+            "Cam kết thành lập tổ chức quốc tế vì hòa bình.",
+            "Hội nghị Têhêran khẳng định quyết tâm lập LHQ.",
+            "Hội nghị Ianta thống nhất thành lập LHQ."
+        ]
+    },
+    {
+        "cau_hoi": "Ngày 1/1/1942 đánh dấu sự kiện gì trong quá trình tiến tới thành lập Liên hợp quốc?",
+        "cau_dung": "Ký cam kết thành lập tổ chức quốc tế vì hòa bình, an ninh sau chiến tranh.",
+        "cau_sai": [
+            "Hiến chương Liên hợp quốc chính thức có hiệu lực.",
+            "Hội nghị Xan Phranxixcô thông qua Hiến chương.",
+            "Hội nghị Ianta họp bàn về trật tự thế giới."
+        ]
+    },
+    {
+        "cau_hoi": "Hội nghị nào diễn ra vào tháng 11/1943 đã khẳng định quyết tâm thành lập Liên hợp quốc?",
+        "cau_dung": "Hội nghị Têhêran (Iran).",
+        "cau_sai": [
+            "Hội nghị Ianta.",
+            "Hội nghị Pốtđam.",
+            "Hội nghị Xan Phranxixcô."
+        ]
+    },
+    {
+        "cau_hoi": "Hội nghị nào diễn ra vào tháng 2/1945 đã thống nhất quyết định thành lập Liên hợp quốc?",
+        "cau_dung": "Hội nghị Ianta.",
+        "cau_sai": [
+            "Hội nghị Têhêran.",
+            "Hội nghị Xan Phranxixcô.",
+            "Hội nghị Pốtđam."
+        ]
+    },
+    {
+        "cau_hoi": "Hội nghị nào diễn ra từ ngày 25/4 đến 26/6/1945 đã thông qua Hiến chương Liên hợp quốc?",
+        "cau_dung": "Hội nghị Xan Phranxixcô (Mỹ).",
+        "cau_sai": [
+            "Hội nghị Ianta.",
+            "Hội nghị Têhêran.",
+            "Hội nghị Pốtđam."
+        ]
+    },
+    {
+        "cau_hoi": "Ngày nào được chọn là ngày kỷ niệm thành lập Liên hợp quốc hằng năm do Hiến chương chính thức có hiệu lực?",
+        "cau_dung": "Ngày 24/10/1945.",
+        "cau_sai": [
+            "Ngày 26/6/1945.",
+            "Ngày 1/1/1942.",
+            "Ngày 12/6/1941."
+        ]
+    },
+    {
+        "cau_hoi": "Mục tiêu hàng đầu được quy định trong Hiến chương của Liên hợp quốc là gì?",
+        "cau_dung": "Duy trì hòa bình và an ninh quốc tế.",
+        "cau_sai": [
+            "Thúc đẩy quan hệ kinh tế độc quyền.",
+            "Xóa bỏ hoàn toàn biên giới các quốc gia.",
+            "Thành lập chính phủ toàn cầu chung."
+        ]
+    },
+    {
+        "cau_hoi": "Một trong những mục tiêu của Liên hợp quốc là thúc đẩy quan hệ hữu nghị giữa các quốc gia trên cơ sở nào?",
+        "cau_dung": "Bình đẳng và tôn trọng quyền tự quyết dân tộc.",
+        "cau_sai": [
+            "Phụ thuộc kinh tế vào các nước lớn.",
+            "Sự thống trị của các cường quốc quân sự.",
+            "Thống nhất thể chế chính trị toàn cầu."
+        ]
+    },
+    {
+        "cau_hoi": "Liên hợp quốc đóng vai trò là trung tâm điều hòa hành động chung của các quốc gia vì mục tiêu gì?",
+        "cau_dung": "Hòa bình, phát triển và tiến bộ nhân loại.",
+        "cau_sai": [
+            "Thống nhất tiền tệ trên toàn thế giới.",
+            "Phát triển độc quyền công nghiệp vũ trụ.",
+            "Xóa bỏ hoàn toàn văn hóa truyền thống các nước."
+        ]
+    },
+    {
+        "cau_hoi": "Vai trò nào sau đây thuộc về lĩnh vực duy trì hòa bình và an ninh quốc tế của Liên hợp quốc?",
+        "cau_dung": "Là diễn đàn quốc tế để các nước hợp tác và đấu tranh vì hòa bình.",
+        "cau_sai": [
+            "Trực tiếp điều hành kinh tế các nước thành viên.",
+            "Quản lý hệ thống tài chính thương mại toàn cầu.",
+            "Xóa bỏ tất cả các tổ chức phi chính phủ."
+        ]
+    },
+    {
+        "cau_hoi": "Lực lượng gìn giữ hòa bình của Liên hợp quốc đã được trao giải Nobel Hòa bình vào năm nào?",
+        "cau_dung": "Năm 1988.",
+        "cau_sai": [
+            "Năm 2001.",
+            "Năm 1945.",
+            "Năm 1976."
+        ]
+    },
+    {
+        "cau_hoi": "Ai và tổ chức nào đã được trao giải Nobel Hòa bình vào năm 2001?",
+        "cau_dung": "Liên hợp quốc và Tổng thư ký Kofi Annan.",
+        "cau_sai": [
+            "Lực lượng gìn giữ hòa bình.",
+            "Đại hội đồng Liên hợp quốc.",
+            "Hội đồng Bảo an Liên hợp quốc."
+        ]
+    },
+    {
+        "cau_hoi": "Nội dung nào phản ánh vai trò của Liên hợp quốc trong việc thúc đẩy phát triển kinh tế, tài chính và nâng cao đời sống?",
+        "cau_dung": "Tạo môi trường hợp tác quốc tế về kinh tế, tài chính, thương mại, khoa học - kỹ thuật.",
+        "cau_sai": [
+            "Trực tiếp phân phối thu nhập cho người dân toàn cầu.",
+            "Độc quyền kiểm soát thị trường dầu mỏ thế giới.",
+            "Xóa bỏ mọi hàng rào thuế quan của tất cả nước."
+        ]
+    },
+    {
+        "cau_hoi": "Trong lĩnh vực bảo đảm quyền con người, Liên hợp quốc đã có hoạt động nổi bật nào?",
+        "cau_dung": "Thông qua Tuyên ngôn Quốc tế Nhân quyền, khẳng định quyền tự do và bình đẳng.",
+        "cau_sai": [
+            "Thành lập tòa án quân sự quốc tế xử lý tội phạm.",
+            "Độc quyền quản lý hệ thống giáo dục các nước.",
+            "Trực tiếp ban hành luật pháp cho các quốc gia."
+        ]
+    },
+    {
+        "cau_hoi": "Việt Nam có thể vận dụng nguyên tắc nào của Liên hợp quốc trong cuộc đấu tranh bảo vệ chủ quyền biển đảo hiện nay?",
+        "cau_dung": "Giải quyết các tranh chấp quốc tế bằng biện pháp hòa bình.",
+        "cau_sai": [
+            "Sử dụng vũ lực để răn đe đối phương.",
+            "Can thiệp vào nội bộ các nước láng giềng.",
+            "Liên minh quân sự chống lại các cường quốc."
+        ]
+    },
+    {
+        "cau_hoi": "Theo quyết định của Hội nghị Ianta (2/1945), quốc gia nào ở châu Âu giữ trạng thái trung lập?",
+        "cau_dung": "Áo và Phần Lan.",
+        "cau_sai": [
+            "Ba Lan và Tiệp Khắc.",
+            "Tây Đức và Đông Đức.",
+            "Pháp và Ý."
+        ]
+    },
+    {
+        "cau_hoi": "Theo thỏa thuận tại Hội nghị Ianta, khu vực Đông Âu thuộc phạm vi ảnh hưởng của nước nào?",
+        "cau_dung": "Liên Xô.",
+        "cau_sai": [
+            "Mĩ.",
+            "Anh.",
+            "Pháp."
+        ]
+    },
+    {
+        "cau_hoi": "Theo Hội nghị Ianta, quốc gia nào chiếm đóng Nhật Bản sau chiến tranh?",
+        "cau_dung": "Mĩ.",
+        "cau_sai": [
+            "Liên Xô.",
+            "Trung Quốc.",
+            "Anh."
+        ]
+    },
+    {
+        "cau_hoi": "Theo Hội nghị Ianta, bán đảo Triều Tiên bị chia cắt thành hai miền ở vĩ tuyến 38 do lực lượng nào kiểm soát?",
+        "cau_dung": "Bắc - Liên Xô, Nam - Mĩ.",
+        "cau_sai": [
+            "Bắc - Trung Quốc, Nam - Anh.",
+            "Bắc - Mĩ, Nam - Liên Xô.",
+            "Bắc - Pháp, Nam - Đức."
+        ]
+    },
+    {
+        "cau_hoi": "Theo Hội nghị Pốtđam (7-8/1945), việc giải giáp quân Nhật ở Đông Dương tại khu vực từ vĩ tuyến 16 trở ra Bắc thuộc về quân đội nước nào?",
+        "cau_dung": "Trung Hoa Dân quốc.",
+        "cau_sai": [
+            "Anh.",
+            "Pháp.",
+            "Mĩ."
+        ]
+    },
+    {
+        "cau_hoi": "Theo Hội nghị Pốtđam (7-8/1945), việc giải giáp quân Nhật ở Đông Dương tại khu vực từ vĩ tuyến 16 trở vào Nam thuộc về quân đội nước nào?",
+        "cau_dung": "Anh.",
+        "cau_sai": [
+            "Trung Hoa Dân quốc.",
+            "Pháp.",
+            "Liên Xô."
+        ]
+    },
+    {
+        "cau_hoi": "Đặc điểm nổi bật của quan hệ quốc tế từ sau Chiến tranh thế giới thứ hai đến đầu những năm 70 của thế kỷ XX là gì?",
+        "cau_dung": "Trật tự thế giới hai cực Ianta xác lập và phát triển với sự đối đầu, căng thẳng giữa hai phe, hai cực.",
+        "cau_sai": [
+            "Xu thế đa cực hoàn toàn chi phối quan hệ quốc tế.",
+            "Chiến tranh lạnh chấm dứt hoàn toàn trên phạm vi toàn cầu.",
+            "Không có sự xung đột hay căng thẳng nào giữa các cường quốc."
+        ]
+    },
+    {
+        "cau_hoi": "Sự kiện nào năm 1947 được xem là mở đầu cho cuộc Chiến tranh lạnh của Mĩ chống lại Liên Xô và các nước XHCN?",
+        "cau_dung": "Việc Mĩ công bố \"Kế hoạch Mácsan\" viện trợ Tây Âu.",
+        "cau_sai": [
+            "Thành lập khối quân sự NATO.",
+            "Thành lập tổ chức Vácsava.",
+            "Liên Xô thử thành công bom nguyên tử."
+        ]
+    },
+    {
+        "cau_hoi": "Tổ chức liên minh quân sự do Mĩ đứng đầu thành lập năm 1949 nhằm chống lại Liên Xô và Đông Âu là gì?",
+        "cau_dung": "NATO.",
+        "cau_sai": [
+            "SEV.",
+            "Vácsava.",
+            "ASEAN."
+        ]
+    },
+    {
+        "cau_hoi": "Tổ chức hợp tác kinh tế do Liên Xô và các nước Đông Âu thành lập năm 1955 là gì?",
+        "cau_dung": "SEV (Hội đồng Tương trợ Kinh tế).",
+        "cau_sai": [
+            "Kế hoạch Mácsan.",
+            "NATO.",
+            "Vácsava."
+        ]
+    },
+    {
+        "cau_hoi": "Tổ chức liên minh chính trị - quân sự phòng thủ của các nước xã hội chủ nghĩa Đông Âu thành lập năm 1955 là gì?",
+        "cau_dung": "Vácsava.",
+        "cau_sai": [
+            "NATO.",
+            "SEV.",
+            "Liên hợp quốc."
+        ]
+    },
+    {
+        "cau_hoi": "Sự kiện nào đánh dấu sự xác lập của cục diện hai cực, hai phe và Chiến tranh lạnh đã bao trùm toàn thế giới?",
+        "cau_dung": "Sự ra đời của NATO và Vácsava.",
+        "cau_sai": [
+            "Việc ký kết Hiệp ước Ba-li.",
+            "Sự tan rã của Liên Xô.",
+            "Hội nghị Ianta năm 1945."
+        ]
+    },
+    {
+        "cau_hoi": "Sự kiện nào mở đầu sự rạn nứt của trật tự hai cực Ianta trong quan hệ quốc tế?",
+        "cau_dung": "Cách mạng Trung Quốc thành công (1949).",
+        "cau_sai": [
+            "Liên Xô tan rã (1991).",
+            "Chiến tranh lạnh bùng nổ (1947).",
+            "Thành lập khối NATO (1949)."
+        ]
+    },
+    {
+        "cau_hoi": "Đầu thập niên 70 của thế kỷ XX, quan hệ quốc tế xuất hiện xu thế nào?",
+        "cau_dung": "Xu thế hòa hoãn Đông - Tây.",
+        "cau_sai": [
+            "Xu thế chiến tranh cục bộ lan rộng toàn cầu.",
+            "Trật tự thế giới đơn cực tuyệt đối.",
+            "Sự sụp đổ hoàn toàn của chủ nghĩa tư bản."
+        ]
+    },
+    {
+        "cau_hoi": "Sự kiện nào diễn ra năm 1989 tại đảo Malta đánh dấu bước ngoặt lớn trong quan hệ quốc tế?",
+        "cau_dung": "Hai nước Mĩ và Liên Xô tuyên bố chấm dứt Chiến tranh lạnh.",
+        "cau_sai": [
+            "Ký kết Hiệp chương ASEAN.",
+            "Thành lập tổ chức Hiệp ước Vácsava.",
+            "Khai mạc Hội nghị Ianta."
+        ]
+    },
+    {
+        "cau_hoi": "Sự kiện nào năm 1991 đánh dấu sự sụp đổ hoàn toàn của trật tự hai cực Ianta và chính thức chấm dứt Chiến tranh lạnh?",
+        "cau_dung": "Liên Xô tan rã.",
+        "cau_sai": [
+            "Cách mạng Trung Quốc thành công.",
+            "Kế hoạch Mácsan ra đời.",
+            "Thành lập NATO."
+        ]
+    },
+    {
+        "cau_hoi": "Sau Chiến tranh lạnh, sức mạnh tổng hợp của quốc gia tùy thuộc chủ yếu vào yếu tố nào?",
+        "cau_dung": "Thực lực về kinh tế - khoa học công nghệ - an ninh, quốc phòng.",
+        "cau_sai": [
+            "Số lượng quân đội thường trực và vũ khí hạt nhân.",
+            "Diện tích lãnh thổ và tài nguyên thiên nhiên thô.",
+            "Số lượng liên minh quân sự tham gia."
+        ]
+    },
+    {
+        "cau_hoi": "Trong quan hệ quốc tế từ sau Chiến tranh lạnh, xu thế \"đa cực\" được hiểu là gì?",
+        "cau_dung": "Trạng thái địa - chính trị toàn cầu có nhiều trung tâm quyền lực cùng chi phối.",
+        "cau_sai": [
+            "Trạng thái một cường quốc duy nhất thống trị toàn cầu.",
+            "Sự phân chia thế giới thành hai phe đối lập hoàn toàn.",
+            "Sự cô lập hoàn toàn giữa các quốc gia với nhau."
+        ]
+    },
+    {
+        "cau_hoi": "Xu thế toàn cầu hóa xuất hiện từ thời điểm nào và là hệ quả của cuộc cách mạng nào?",
+        "cau_dung": "Thập niên 1980, hệ quả của cách mạng khoa học - công nghệ.",
+        "cau_sai": [
+            "Thập niên 1950, hệ quả của cách mạng công nghiệp lần thứ nhất.",
+            "Thập niên 1990, hệ quả của thành lập ASEAN.",
+            "Đầu thế kỷ XXI, hệ quả của chiến tranh lạnh."
+        ]
+    },
+    {
+        "cau_hoi": "Biểu hiện nào sau đây là của xu thế toàn cầu hóa?",
+        "cau_dung": "Thương mại quốc tế phát triển, công ty xuyên quốc gia mở rộng, sáp nhập tập đoàn.",
+        "cau_sai": [
+            "Sự thu hẹp tối đa các mối quan hệ giao thương quốc tế.",
+            "Các quốc gia đóng cửa nền kinh tế hoàn toàn.",
+            "Chỉ có duy nhất một trung tâm kinh tế duy trì trên thế giới."
+        ]
+    },
+    {
+        "cau_hoi": "Quốc gia nào sau đây không phải là nước sáng lập Hiệp hội các quốc gia Đông Nam Á (ASEAN) năm 1967?",
+        "cau_dung": "Việt Nam.",
+        "cau_sai": [
+            "Thái Lan.",
+            "Xingapo.",
+            "Malaixia."
+        ]
+    },
+    {
+        "cau_hoi": "Nguyên tắc hoạt động cơ bản nào của ASEAN được duy trì từ khi thành lập đến nay?",
+        "cau_dung": "Nguyên tắc đồng thuận.",
+        "cau_sai": [
+            "Nguyên tắc đa số áp đảo thiểu số.",
+            "Nguyên tắc can thiệp quân sự tự động.",
+            "Nguyên tắc chỉ định tổng thư ký luân phiên."
+        ]
+    },
+    {
+        "cau_hoi": "Cơ chế hoạch định chính sách cao nhất của ASEAN trong giai đoạn 1967 - 1976 là gì?",
+        "cau_dung": "Hội nghị Bộ trưởng Ngoại giao ASEAN (AMM).",
+        "cau_sai": [
+            "Hội nghị Thượng đỉnh ASEAN.",
+            "Ủy ban thường trực ASEAN.",
+            "Ban Thư ký ASEAN."
+        ]
+    },
+    {
+        "cau_hoi": "Cơ chế hoạch định chính sách cao nhất của ASEAN từ năm 1976 đến nay là gì?",
+        "cau_dung": "Hội nghị Thượng đỉnh ASEAN (Hội nghị Cấp cao).",
+        "cau_sai": [
+            "Hội nghị Bộ trưởng Ngoại giao ASEAN.",
+            "Hội đồng bảo an khu vực.",
+            "Đại hội đồng lập hiến ASEAN."
+        ]
+    },
+    {
+        "cau_hoi": "Sự kiện ký kết Hiệp ước Thân thiện và Hợp tác ở Đông Nam Á (TAC) năm 1976 tại Ba-li đã tạo ra bước ngoạt gì?",
+        "cau_dung": "Xây dựng khu vực hòa bình, hữu nghị.",
+        "cau_sai": [
+            "Chấm dứt hoàn toàn mâu thuẫn biên giới.",
+            "Thống nhất tiền tệ chung cho toàn khối.",
+            "Thành lập liên minh quân sự chung chống thế lực ngoài."
+        ]
+    },
+    {
+        "cau_hoi": "Năm nước sáng lập ASEAN đã hoàn tất việc mở rộng thành viên lên 10 nước vào năm nào?",
+        "cau_dung": "Năm 1999.",
+        "cau_sai": [
+            "Năm 1995.",
+            "Năm 1997.",
+            "Năm 2007."
+        ]
+    },
+    {
+        "cau_hoi": "Văn kiện nào được thông qua năm 2007 tạo cơ sở pháp lý quan trọng cho sự ra đời của Cộng đồng ASEAN?",
+        "cau_dung": "Hiến chương ASEAN.",
+        "cau_sai": [
+            "Hiệp ước Ba-li.",
+            "Tuyên bố Băng-cốc.",
+            "Hiệp định AFTA."
+        ]
+    },
+    {
+        "cau_hoi": "Nhận định nào sau đây đúng về đặc điểm của các nước thành viên ASEAN?",
+        "cau_dung": "Trình độ kinh tế không đồng đều, chủ yếu là nước đang phát triển.",
+        "cau_sai": [
+            "Có cùng một thể chế chính trị duy nhất.",
+            "Có chung một ngôn ngữ và tôn giáo chính thức.",
+            "Trình độ phát triển kinh tế hoàn toàn đồng đều nhau."
+        ]
+    },
+    {
+        "cau_hoi": "Cộng đồng ASEAN bao gồm mấy trụ cột chính?",
+        "cau_dung": "3 trụ cột.",
+        "cau_sai": [
+            "2 trụ cột.",
+            "4 trụ cột.",
+            "5 trụ cột."
+        ]
+    },
+    {
+        "cau_hoi": "Ba trụ cột chính của Cộng đồng ASEAN là gì?",
+        "cau_dung": "Cộng đồng Chính trị - An ninh, Cộng đồng Kinh tế, Cộng đồng Văn hóa - Xã hội.",
+        "cau_sai": [
+            "Cộng đồng Quân sự, Cộng đồng Ngoại giao, Cộng đồng Tài chính.",
+            "Cộng đồng Thương mại, Cộng đồng Công nghệ, Cộng đồng Giao thông.",
+            "Cộng đồng An ninh, Cộng đồng Khoa học, Cộng đồng Giáo dục."
+        ]
+    },
+    {
+        "cau_hoi": "Cơ sở pháp lý chủ yếu để xây dựng Cộng đồng ASEAN là văn kiện nào?",
+        "cau_dung": "Hiến chương ASEAN.",
+        "cau_sai": [
+            "Hiệp ước Ba-li.",
+            "Tuyên bố Băng-cốc.",
+            "Tuyên bố Malaixia."
+        ]
+    },
+    {
+        "cau_hoi": "Nội dung nào sau đây là triển vọng tích cực của Cộng đồng ASEAN?",
+        "cau_dung": "Liên kết ngày càng sâu rộng trên 3 trụ cột, vị thế uy tín ngày càng nâng cao.",
+        "cau_sai": [
+            "Hoàn toàn xóa bỏ biên giới quốc gia giữa các nước.",
+            "Thống nhất thành một quốc gia duy nhất trong khu vực.",
+            "Khép kín hoàn toàn thị trường với bên ngoài."
+        ]
+    },
+    {
+        "cau_hoi": "Thách thức từ bên trong khối đối với Cộng đồng ASEAN là gì?",
+        "cau_dung": "Chế độ chính trị đa dạng, kinh tế chênh lệch phát triển, cơ chế đồng thuận dễ làm giảm thống nhất.",
+        "cau_sai": [
+            "Sự can thiệp quân sự trực tiếp của Liên hợp quốc.",
+            "Sự sụp đổ của toàn bộ hệ thống giao thông.",
+            "Không có bất kỳ mâu thuẫn nào trong nội khối."
+        ]
+    },
+    {
+        "cau_hoi": "Thách thức từ bên ngoài đối với Cộng đồng ASEAN bao gồm yếu tố nào?",
+        "cau_dung": "Cạnh tranh ảnh hưởng của các nước lớn (Mĩ, Trung Quốc...), vấn đề Biển Đông, biến đổi khí hậu.",
+        "cau_sai": [
+            "Sự cô lập kinh tế hoàn toàn của châu Âu.",
+            "Sự chấm dứt mọi quan hệ thương mại quốc tế.",
+            "Sự bùng nổ dân số toàn cầu."
+        ]
+    },
+    {
+        "cau_hoi": "Sự kiện nào diễn ra ngày 15-8-1945 tạo ra thời cơ thuận lợi để nhân dân Việt Nam tổng khởi nghĩa giành chính quyền?",
+        "cau_dung": "Nhật hoàng tuyên bố đầu hàng Đồng minh không điều kiện.",
+        "cau_sai": [
+            "Pháp chính thức tuyên bố trao trả độc lập cho Đông Dương.",
+            "Quân đội Đồng minh kéo vào Hà Nội.",
+            "Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập."
+        ]
+    },
+    {
+        "cau_hoi": "Đại hội Quốc dân được triệu tập ở Tân Trào từ ngày 16 đến 17-8-1945 đã có quyết định quan trọng nào?",
+        "cau_dung": "Tán thành chủ trương Tổng khởi nghĩa của Đảng và thông qua 10 chính sách của Việt Minh.",
+        "cau_sai": [
+            "Quyết định phát động kháng chiến chống Pháp toàn quốc.",
+            "Bầu Chính phủ lâm thời nước VNDCH.",
+            "Ký hiệp định sơ bộ với thực dân Pháp."
+        ]
+    },
+    {
+        "cau_hoi": "Thắng lợi của Cách mạng tháng Tám năm 1945 ở Việt Nam đã chấm dứt vĩnh viễn chế độ nào?",
+        "cau_dung": "Chế độ quân chủ chuyên chế và ách thống trị của thực dân, phát xít.",
+        "cau_sai": [
+            "Chế độ phong kiến lập hiến kéo dài nhiều thế kỷ.",
+            "Chế độ tư bản chủ nghĩa ở miền Bắc.",
+            "Chế độ thuộc địa kiểu mới của Mĩ."
+        ]
+    },
+    {
+        "cau_hoi": "Sự kiện vua Bảo Đại chính thức tuyên bố thoái vị diễn ra vào thời gian nào?",
+        "cau_dung": "Ngày 30-8-1945.",
+        "cau_sai": [
+            "Ngày 15-8-1945.",
+            "Ngày 19-8-1945.",
+            "Ngày 2-9-1945."
+        ]
+    },
+    {
+        "cau_hoi": "Những địa phương nào sau đây là các tỉnh giành chính quyền sớm nhất trong Cách mạng tháng Tám năm 1945?",
+        "cau_dung": "Bắc Giang, Hải Dương, Hà Tĩnh, Quảng Nam.",
+        "cau_sai": [
+            "Hà Nội, Sài Gòn, Huế, Hải Phòng.",
+            "Cao Bằng, Bắc Kạn, Lạng Sơn, Thái Nguyên.",
+            "Thanh Hóa, Nghệ An, Hà Tĩnh, Quảng Bình."
+        ]
+    },
+    {
+        "cau_hoi": "Tính chất dân chủ của Cách mạng tháng Tám năm 1945 được thể hiện qua nội dung nào?",
+        "cau_dung": "Lật đổ chế độ phong kiến, lập nên nước Việt Nam Dân chủ Cộng hòa và giải quyết quyền tự do dân chủ cho nhân dân.",
+        "cau_sai": [
+            "Hoàn thành triệt để cuộc cách mạng ruộng đất chia đều cho nông dân.",
+            "Xóa bỏ hoàn toàn mọi tàn tích của chủ nghĩa tư bản thế giới.",
+            "Đưa giai cấp tư sản lên nắm quyền lãnh đạo nhà nước."
+        ]
+    },
+    {
+        "cau_hoi": "Tính chất \"dân tộc điển hình\" của Cách mạng tháng Tám năm 1945 được thể hiện qua yếu tố nào?",
+        "cau_dung": "Lật đổ ách thống trị của phát xít Nhật và tay sai, giành độc lập dân tộc, giải quyết mâu thuẫn chủ yếu là mâu thuẫn dân tộc.",
+        "cau_sai": [
+            "Tập trung giải quyết mâu thuẫn giai cấp giữa nông dân và địa chủ phong kiến.",
+            "Chỉ huy động lực lượng công nhân tham gia khởi nghĩa.",
+            "Đấu tranh thuần túy bằng biện pháp ngoại giao hòa bình."
+        ]
+    },
+    {
+        "cau_hoi": "Nhận định cho rằng \"Cách mạng tháng Tám năm 1945 là ăn may, là lấp lỗ trống quyền lực\" là đúng hay sai? Vì sao?",
+        "cau_dung": "Sai, vì Đảng và nhân dân đã có quá trình chuẩn bị tốt, chu đáo suốt 15 năm.",
+        "cau_sai": [
+            "Đúng, vì Nhật đầu hàng Đồng minh nên ta mới giành được chính quyền.",
+            "Đúng, vì không có sự lãnh đạo của Đảng thì nhân dân vẫn tự khởi nghĩa thành công.",
+            "Sai, vì quân Đồng minh đã trao lại chính quyền trực tiếp cho Việt Minh."
+        ]
+    },
+    {
+        "cau_hoi": "Đâu là thuận lợi của nước ta về mặt thế giới sau Cách mạng tháng Tám năm 1945?",
+        "cau_dung": "Hệ thống xã hội chủ nghĩa đang hình thành (Liên Xô, các nước Đông Âu) và phong trào giải phóng dân tộc dâng cao.",
+        "cau_sai": [
+            "Chủ nghĩa tư bản thế giới sụp đổ hoàn toàn.",
+            "Các nước đế quốc chủ nghĩa ủng hộ nền độc lập của Việt Nam.",
+            "Quân đội các nước phát xít chuyển sang hỗ trợ cách mạng."
+        ]
+    },
+    {
+        "cau_hoi": "Thuận lợi cơ bản nhất trong nước của Việt Nam sau Cách mạng tháng Tám năm 1945 là gì?",
+        "cau_dung": "Đất nước được độc lập, nhân dân đã giành quyền làm chủ và có lãnh đạo sáng suốt là Chủ tịch Hồ Chí Minh.",
+        "cau_sai": [
+            "Nền kinh tế phát triển mạnh mẽ vượt bậc.",
+            "Hoàn toàn không gặp khó khăn về tài chính hay thù trong giặc ngoài.",
+            "Đã xây dựng được quân đội chính quy hiện đại."
+        ]
+    },
+    {
+        "cau_hoi": "Đâu là nguyên nhân quyết định thắng lợi của Cách mạng tháng Tám năm 1945?",
+        "cau_dung": "Sự lãnh đạo đúng đắn, sáng suốt của Đảng và Chủ tịch Hồ Chí Minh.",
+        "cau_sai": [
+            "Thắng lợi của quân Đồng minh trong chiến tranh chống phát xít.",
+            "Sự viện trợ toàn diện về quân sự của các nước xã hội chủ nghĩa.",
+            "Sự suy yếu hoàn toàn của thực dân Pháp tại Đông Dương."
+        ]
+    },
+    {
+        "cau_hoi": "Nguyên nhân nào sau đây phản ánh truyền thống của dân tộc góp phần vào thắng lợi của Cách mạng tháng Tám?",
+        "cau_dung": "Dân tộc Việt Nam có truyền thống yêu nước, đấu tranh kiên cường, bất khuất.",
+        "cau_sai": [
+            "Truyền thống dựa dẫm vào các lực lượng quốc tế bên ngoài.",
+            "Truyền thống thỏa hiệp với kẻ thù để duy trì hòa bình.",
+            "Truyền thống chờ đợi thời cơ thay vì chủ động chuẩn bị."
+        ]
+    },
+    {
+        "cau_hoi": "Ý nghĩa lịch sử trong nước quan trọng nhất của Cách mạng tháng Tám năm 1945 là gì?",
+        "cau_dung": "Phá tan xiềng xích nô lệ của Pháp - Nhật, lật đổ chế độ phong kiến, đưa Việt Nam từ nước thuộc địa nửa phong kiến trở thành nước độc lập, tự do, VNDCH.",
+        "cau_sai": [
+            "Hoàn thành ngay cuộc cách mạng xã hội chủ nghĩa trên toàn quốc.",
+            "Giúp kinh tế Việt Nam đứng đầu khu vực Đông Nam Á.",
+            "Chấm dứt hoàn toàn mọi cuộc chiến tranh xâm lược từ bên ngoài."
+        ]
+    },
+    {
+        "cau_hoi": "Cách mạng tháng Tám năm 1945 đã mở ra kỷ nguyên mới nào cho lịch sử dân tộc Việt Nam?",
+        "cau_dung": "Kỷ nguyên độc lập, tự do; kỷ nguyên nhân dân lao động làm chủ.",
+        "cau_sai": [
+            "Kỷ nguyên phát triển kinh tế tư bản chủ nghĩa.",
+            "Kỷ nguyên hội nhập kinh tế khu vực Đông Nam Á.",
+            "Kỷ nguyên công nghiệp hóa hiện đại hóa đất nước."
+        ]
+    },
+    {
+        "cau_hoi": "Về mặt quốc tế, Cách mạng tháng Tám năm 1945 đã đóng góp gì to lớn?",
+        "cau_dung": "Góp phần vào thắng lợi của cuộc chiến tranh chống phát xít, chọc thủng khâu yếu nhất trong hệ thống thuộc địa của chủ nghĩa đế quốc.",
+        "cau_sai": [
+            "Trực tiếp giải phóng toàn bộ châu Á và châu Phi.",
+            "Tiêu diệt hoàn toàn chủ nghĩa tư bản trên phạm vi toàn cầu.",
+            "Thành lập chính phủ chung cho các nước Đông Nam Á."
+        ]
+    },
+    {
+        "cau_hoi": "Thắng lợi của Cách mạng tháng Tám là thắng lợi đầu tiên của Đảng vô sản ở một nước thuộc địa đã đem lại điều gì?",
+        "cau_dung": "Đem sức ta giải phóng cho ta.",
+        "cau_sai": [
+            "Nhờ hoàn toàn vào sự giúp đỡ của lực lượng bên ngoài.",
+            "Phụ thuộc vào kết quả đàm phán quốc tế.",
+            "Chờ đợi sự sụp đổ tự nhiên của kẻ thù."
+        ]
+    },
+    {
+        "cau_hoi": "Đảng Lao động Việt Nam (Đảng Cộng sản Đông Dương) sau Cách mạng tháng Tám đã trở thành đảng gì?",
+        "cau_dung": "Đảng cầm quyền.",
+        "cau_sai": [
+            "Đảng đối lập trong nghị viện.",
+            "Tổ chức phi chính phủ quốc tế.",
+            "Liên minh các đảng phái tư sản."
+        ]
+    },
+    {
+        "cau_hoi": "Nội dung nào phản ánh tính sáng tạo trong tư tưởng Hồ Chí Minh qua thắng lợi của Cách mạng tháng Tám?",
+        "cau_dung": "Vận dụng sáng tạo chủ nghĩa Mác - Lênin vào hoàn cảnh cụ thể của cách mạng Việt Nam, gắn độc lập dân tộc với chủ nghĩa xã hội.",
+        "cau_sai": [
+            "Sao chép hoàn toàn mô hình cách mạng của các nước châu Âu.",
+            "Tiến hành cách mạng vô sản trước khi giành độc lập dân tộc.",
+            "Dựa hoàn toàn vào sức mạnh quân sự của phe Đồng minh."
+        ]
+    },
+    {
+        "cau_hoi": "Sự kiện Cách mạng tháng Tám năm 1945 thành công đã chấm dứt tình trạng nào của đất nước?",
+        "cau_dung": "Chấm dứt thời kỳ Pháp thuộc, tình trạng chia cắt đất nước, nhân dân từ thân phận nô lệ trở thành người làm chủ vận mệnh.",
+        "cau_sai": [
+            "Chấm dứt mọi tranh chấp lãnh thổ với các nước láng giềng.",
+            "Chấm dứt tình trạng khủng hoảng kinh tế toàn cầu.",
+            "Chấm dứt sự can thiệp của Liên hợp quốc."
+        ]
+    },
+    {
+        "cau_hoi": "Cách mạng tháng Tám năm 1945 đã cổ vũ mạnh mẽ phong trào nào trên thế giới?",
+        "cau_dung": "Cổ vũ các dân tộc thuộc địa đấu tranh tự giải phóng, nhất là Miên và Lào.",
+        "cau_sai": [
+            "Cổ vũ các nước tư bản phát triển mở rộng thuộc địa.",
+            "Cổ vũ phong trào phát xít mới trỗi dậy.",
+            "Cổ vũ cuộc chạy đua vũ trang giữa các siêu cường."
+        ]
+    },
+    {
+        "cau_hoi": "Ngày 13-8-1945, sự kiện quan trọng nào đã diễn ra ở Việt Nam dưới sự lãnh đạo của Đảng?",
+        "cau_dung": "Thành lập Ủy ban Khởi nghĩa toàn quốc, ra Quân lệnh số 1 chính thức phát lệnh Tổng khởi nghĩa trên cả nước.",
+        "cau_sai": [
+            "Đại hội Quốc dân họp tại Tân Trào.",
+            "Vua Bảo Đại tuyên bố thoái vị trước toàn quốc.",
+            "Nhật hoàng tuyên bố đầu hàng Đồng minh không điều kiện."
+        ]
+    },
+    {
+        "cau_hoi": "Hội nghị toàn quốc của Đảng họp ở Tân Trào (Tuyên Quang) diễn ra trong khoảng thời gian nào?",
+        "cau_dung": "Từ ngày 16 đến ngày 17-8-1945.",
+        "cau_sai": [
+            "Từ ngày 13 đến ngày 15-8-1945.",
+            "Từ ngày 14 đến ngày 15-8-1945.",
+            "Ngày 30-8-1945."
+        ]
+    },
+    {
+        "cau_hoi": "Nhà nước Việt Nam Dân chủ Cộng hòa ra đời sau Cách mạng tháng Tám năm 1945 được xác định là hình thức gì?",
+        "cau_dung": "Nhà nước công nông đầu tiên ở Đông Nam Á.",
+        "cau_sai": [
+            "Nhà nước tư sản lập hiến hiện đại.",
+            "Nhà nước liên bang chung của bán đảo Đông Dương.",
+            "Nhà nước quân chủ lập hiến tối cao."
+        ]
+    },
+    {
+        "cau_hoi": "Về lực lượng, Cách mạng tháng Tám năm 1945 là cuộc nổi dậy của đối tượng nào?",
+        "cau_dung": "Cả dân tộc Việt Nam, đoàn kết trong Mặt trận Việt Minh, không phân biệt giai cấp, tôn giáo, dân tộc.",
+        "cau_sai": [
+            "Chỉ riêng lực lượng vũ trang công nhân và nông dân nghèo.",
+            "Lực lượng quân đội Đồng minh phối hợp với các tầng lớp tri thức yêu nước.",
+            "Tầng lớp tư sản dân tộc và tiểu tư sản ở các đô thị lớn."
+        ]
+    },
+    {
+        "cau_hoi": "Đâu không phải là một trong những nguyên nhân thắng lợi của Cách mạng tháng Tám năm 1945?",
+        "cau_dung": "Sự giúp đỡ quân sự trực tiếp và toàn diện từ các nước tư bản Tây Âu.",
+        "cau_sai": [
+            "Sự lãnh đạo đúng đắn, sáng suốt của Đảng và Chủ tịch Hồ Chí Minh.",
+            "Truyền thống yêu nước, đấu tranh kiên cường, bất khuất của dân tộc.",
+            "Quá trình chuẩn bị lâu dài, chu đáo, rút kinh nghiệm qua các thời kì đấu tranh."
+        ]
+    },
+    {
+        "cau_hoi": "Ý nghĩa lịch sử nào dưới đây khẳng định Cách mạng tháng Tám đã xóa bỏ ách nô lệ ngoại bang ở nước ta?",
+        "cau_dung": "Phá tan xiềng xích nô lệ của Pháp và Nhật, lật đổ chế độ phong kiến, đưa Việt Nam từ thuộc địa nửa phong kiến trở thành nước độc lập, tự do, VNDCH.",
+        "cau_sai": [
+            "Chấm dứt hoàn toàn tình trạng chiến tranh lạnh trên phạm vi toàn cầu.",
+            "Trở thành cuộc cách mạng tư sản kiểu cũ có quy mô lớn nhất châu Á.",
+            "Đưa Việt Nam trở thành một trong các cường quốc công nghiệp hàng đầu thế giới."
+        ]
+    },
+    {
+        "cau_hoi": "Sự kiện ngày 15-8-1945, khi Nhật hoàng tuyên bố đầu hàng Đồng minh không điều kiện, đã dẫn đến tình trạng gì đối với quân đội Nhật ở Đông Dương?",
+        "cau_dung": "Quân Nhật ở Đông Dương rệu rã, Chính phủ thân Nhật Trần Trọng Kim hoang mang, dao động.",
+        "cau_sai": [
+            "Quân Nhật vẫn giữ vững tinh thần chiến đấu.",
+            "Quân Nhật chủ động bàn giao toàn bộ vũ khí cho quân đội Đồng minh.",
+            "Quân Nhật rút hoàn toàn về nước."
+        ]
+    },
+    {
+        "cau_hoi": "Thắng lợi của Cách mạng tháng Tám năm 1945 là minh chứng sinh động cho việc vận dụng sáng tạo học thuyết nào vào hoàn cảnh cụ thể của Việt Nam?",
+        "cau_dung": "Chủ nghĩa Mác - Lênin, gắn độc lập dân tộc với chủ nghĩa xã hội.",
+        "cau_sai": [
+            "Học thuyết kinh tế thị trường tư bản tự do của phương Tây.",
+            "Mô hình cách mạng vô sản thuần túy diễn ra ở các nước công nghiệp.",
+            "Đường lối đấu tranh vũ trang đơn thuần không cần kết hợp chính trị."
+        ]
+    },
+    {
+        "cau_hoi": "Đảng Cộng sản Đông Dương và lực lượng cách mạng đã có quá trình chuẩn bị như thế nào dẫn đến thắng lợi của Cách mạng tháng Tám năm 1945?",
+        "cau_dung": "Có sự chuẩn bị kỹ càng, chu đáo suốt mười lăm năm, xây dựng lực lượng qua thực tiễn và rèn luyện qua các kỳ đấu tranh.",
+        "cau_sai": [
+            "Chỉ mới chuẩn bị trong thời gian ngắn vài tuần.",
+            "Chờ đợi thời cơ tự nhiên đến mà không cần xây dựng lực lượng.",
+            "Hoàn toàn dựa vào sự chi viện quân sự trực tiếp từ bên ngoài."
+        ]
+    },
+    {
+        "cau_hoi": "Cuộc Tổng khởi nghĩa tháng Tám năm 1945 ở Việt Nam diễn ra với hình thái như thế nào?",
+        "cau_dung": "Khởi nghĩa vũ trang kết hợp đấu tranh chính trị ở cả nông thôn và đô thị.",
+        "cau_sai": [
+            "Đấu tranh ngoại giao thuần túy tại các hội nghị quốc tế.",
+            "Cuộc chiến tranh du kích kéo dài hàng thập kỷ ở vùng núi.",
+            "Khởi nghĩa đô thị thuần túy của tầng lớp học sinh, sinh viên."
+        ]
+    },
+    {
+        "cau_hoi": "Bài học kinh nghiệm nào của Cách mạng tháng Tám năm 1945 được Đảng ta vận dụng sáng tạo trong công cuộc bảo vệ chủ quyền lãnh thổ hiện nay?",
+        "cau_dung": "Xây dựng khối đại đoàn kết toàn dân tộc, kết hợp sức mạnh dân tộc với sức mạnh thời đại, chớp thời cơ và chỉ đạo linh hoạt.",
+        "cau_sai": [
+            "Chỉ dựa vào các hiệp ước quốc tế ký kết với nước ngoài.",
+            "Đợi đến khi có nguy cơ chiến tranh mới bắt đầu xây dựng lực lượng.",
+            "Tuyệt đối hóa yếu tố vũ khí hiện đại trong tác chiến."
+        ]
+    },
+    {
+        "cau_hoi": "Chính phủ lâm thời nước Việt Nam Dân chủ Cộng hòa được cải tổ từ tổ chức nào sau thành công của Cách mạng tháng Tám?",
+        "cau_dung": "Ủy ban Dân tộc Giải phóng Việt Nam.",
+        "cau_sai": [
+            "Ủy ban Khởi nghĩa toàn quốc.",
+            "Hội Văn hóa Cứu quốc.",
+            "Tổng bộ Việt Minh."
+        ]
+    },
+    {
+        "cau_hoi": "Khối đại đoàn kết toàn dân tộc trong Cách mạng tháng Tám năm 1945 được thể hiện tập trung nhất trong tổ chức nào?",
+        "cau_dung": "Mặt trận Việt Minh.",
+        "cau_sai": [
+            "Hội Công hội đỏ.",
+            "Hội Nông hội xanh.",
+            "Mặt trận Liên Việt."
+        ]
+    },
+    {
+        "cau_hoi": "Một trong những đóng góp to lớn của Cách mạng tháng Tám năm 1945 đối với phong trào cách mạng thế giới là gì?",
+        "cau_dung": "Mở đầu sự sụp đổ của hệ thống thuộc địa chủ nghĩa thực dân cũ.",
+        "cau_sai": [
+            "Thành lập ngay khối liên minh kinh tế toàn cầu.",
+            "Làm sụp đổ hoàn toàn chế độ tư bản chủ nghĩa ở châu Âu.",
+            "Giải quyết triệt để vấn đề đói nghèo trên toàn thế giới."
+        ]
+    },
+    {
+        "cau_hoi": "Thắng lợi của Cách mạng tháng Tám năm 1945 đã đưa Đảng Cộng sản Đông Dương từ chỗ hoạt động bí mật trở thành điều gì?",
+        "cau_dung": "Đảng cầm quyền, lãnh đạo chính quyền trong toàn quốc.",
+        "cau_sai": [
+            "Một đoàn thể nhân dân hoạt động xã hội đơn thuần.",
+            "Đảng đối lập trong nghị viện tư sản.",
+            "Tổ chức tư vấn chính trị cho phe Đồng minh."
         ]
     }
 ]
