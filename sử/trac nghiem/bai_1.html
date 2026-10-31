@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài ôn tập Địa</title>
+    <link rel='stylesheet' href='/common.css'>
+</head>
+<body>
+    <audio id="correct">
+        <source src="/sound/đúng.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="incorrect">
+        <source src="/sound/sai.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="regular">
+        <source src="/sound/lựa chọn.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="change_question">
+        <source src="/sound/sang trang.mp3" type="audio/mpeg">
+    </audio>
+    <div id="display">
+
+        <div id="util">
+            <a id ="back" href="../index.html">Quay lại</a>
+            <button id ="sfx_toggle"><img src="/images/music button.png" alt="SFX"></button>
+        </div>
+
+        <p id="question"></p>
+        <div id="answers">
+            <button id ="answear_1" class="answer"></button>
+            <button id ="answear_2" class="answer"></button>
+            <button id ="answear_3" class="answer"></button>
+            <button id ="answear_4" class="answer"></button>
+        </div>
+        <div id="change_question">
+            <button id ="prev_question"><img src="/images/prev_button.png" alt="prev"></button>
+            <button id ="next_question"><img src="/images/next_button.png" alt="next"></button>
+        </div>
+    </div>  
+
+    <script type="module">
+        import * as TracNghiem from "/trac_nghiem.js"
+        import { sfx_toggle } from "/common.js"
+        let id = 0;
+        let answers = []
+        let sfx = [document.getElementById("correct"), document.getElementById("incorrect"), document.getElementById("regular"), document.getElementById("change_question")];
+        let baiTracNghiem = await TracNghiem.gatherring("../data/bai 1.json");
+        function next() {
+            id = TracNghiem.nextQuestion(baiTracNghiem[id+1], answers, id);
+        }
+        function prev() {
+            id = TracNghiem.prevQuestion(baiTracNghiem[id-1], answers, id);
+        }
+        function answer(chosen) {
+            baiTracNghiem[id], answers = TracNghiem.answer(id, chosen, baiTracNghiem[id], answers, sfx);
+        }
+
+        baiTracNghiem[id].display_raw(true);
+        document.getElementById("next_question").addEventListener("click", next);
+        document.getElementById("prev_question").addEventListener("click", prev);
+        document.getElementById("answear_1").addEventListener("click", () => answer(0));
+        document.getElementById("answear_2").addEventListener("click", () => answer(1));
+        document.getElementById("answear_3").addEventListener("click", () => answer(2));
+        document.getElementById("answear_4").addEventListener("click", () => answer(3));
+        document.getElementById("sfx_toggle").addEventListener("click", sfx_toggle);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+[
+    {
+        "cau_hoi": "Câu hỏi 1 Bài 2",
+        "cau_dung": "Câu đúng",
+        "cau_sai": [
+            "Câu sai 1",
+            "Câu sai 2",
+            "Câu sai 3"
+        ]
+    },
+    {
+        "cau_hoi": "Câu hỏi 2 Bài 2",
+        "cau_dung": "Câu đúng",
+        "cau_sai": [
+            "Câu sai 1",
+            "Câu sai 2",
+            "Câu sai 3"
+        ]
+    }
+]
