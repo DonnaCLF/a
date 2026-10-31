@@ -1,20 +1,245 @@
 [
     {
-        "cau_hoi": "Câu hỏi 1 Bài 3",
-        "cau_dung": "Câu đúng",
+        "cau_hoi": "Phát biểu nào sau đây đúng về mật độ dân số nước ta?",
+        "cau_dung": "Ngày càng tăng.",
         "cau_sai": [
-            "Câu sai 1",
-            "Câu sai 2",
-            "Câu sai 3"
+            "Ngày càng giảm.",
+            "Ít biến động.",
+            "Mật độ thấp."
         ]
     },
     {
-        "cau_hoi": "Câu hỏi 2 Bài 3",
-        "cau_dung": "Câu đúng",
+        "cau_hoi": "Vùng có mật độ dân số cao nhất nước ta là",
+        "cau_dung": "Đồng bằng sông Hồng.",
         "cau_sai": [
-            "Câu sai 1",
-            "Câu sai 2",
-            "Câu sai 3"
+            "Đồng bằng sông Cửu Long.",
+            "Duyên hải Nam Trung Bộ.",
+            "Đông Nam Bộ."
+        ]
+    },
+    {
+        "cau_hoi": "Dân cư ở miền núi nước ta hiện nay",
+        "cau_dung": "có nhiều dân tộc khác nhau.",
+        "cau_sai": [
+            "có mật độ dân số rất cao.",
+            "chiếm phần lớn dân số cả nước.",
+            "chỉ sản xuất nông nghiệp."
+        ]
+    },
+    {
+        "cau_hoi": "Dân số nước ta hiện nay",
+        "cau_dung": "đông, cơ cấu tuổi thay đổi nhanh.",
+        "cau_sai": [
+            "quy mô lớn, phân bố rất hợp lí.",
+            "phân bố đồng đều, tăng chậm.",
+            "tăng nhanh, ít thành phần dân tộc."
+        ]
+    },
+    {
+        "cau_hoi": "Dân số nước ta",
+        "cau_dung": "đông, nhiều thành phần dân tộc.",
+        "cau_sai": [
+            "gia tăng rất chậm, cơ cấu rất trẻ.",
+            "chủ yếu tập trung sống ở đô thị.",
+            "phân bố đồng đều khắp cả nước."
+        ]
+    },
+    {
+        "cau_hoi": "Phân bố dân cư nước ta hiện nay",
+        "cau_dung": "phù hợp với tính chất nền kinh tế.",
+        "cau_sai": [
+            "đồng đều giữa các vùng với nhau.",
+            "chưa gắn liền với công nghiệp hóa.",
+            "toàn bộ gắn với vùng chuyên canh."
+        ]
+    },
+    {
+        "cau_hoi": "Dân cư thành thị nước ta hiện nay",
+        "cau_dung": "có chất lượng sống ngày càng cao.",
+        "cau_sai": [
+            "chưa tham gia hoạt động dịch vụ.",
+            "hầu hết làm việc trong nông nghiệp.",
+            "chủ yếu làm việc trong các hầm mỏ."
+        ]
+    },
+    {
+        "cau_hoi": "Đặc điểm nổi bật về cơ cấu xã hội của dân số nước ta hiện nay là",
+        "cau_dung": "đang có cơ cấu dân số vàng.",
+        "cau_sai": [
+            "tỉ lệ dân số biết chữ tăng lên.",
+            "tỉ lệ dân số nam nhiều hơn nữ.",
+            "dân số già hóa nhanh chóng."
+        ]
+    },
+    {
+        "cau_hoi": "Dân cư nước ta hiện nay",
+        "cau_dung": "tập trung chủ yếu ở đồng bằng.",
+        "cau_sai": [
+            "phân bố đều khắp giữa các vùng.",
+            "quy mô dân số có xu hướng giảm.",
+            "gia tăng dân số tự nhiên rất cao."
+        ]
+    },
+    {
+        "cau_hoi": "Dân số của nước ta hiện nay có đặc điểm nào sau đây?",
+        "cau_dung": "Mật độ dân số ngày càng tăng lên.",
+        "cau_sai": [
+            "Quy mô có xu hướng giảm nhanh.",
+            "Tỉ số giới tính khi sinh cân bằng.",
+            "Cơ cấu theo tuổi không thay đổi."
+        ]
+    },
+    {
+        "cau_hoi": "Các dân tộc ở nước ta hiện nay",
+        "cau_dung": "có chất lượng sống được cải thiện.",
+        "cau_sai": [
+            "phân bố đồng đều trên khắp cả nước.",
+            "chưa chú trọng phát triển trồng trọt.",
+            "chỉ tập trung ở các khu vực đồi núi."
+        ]
+    },
+    {
+        "cau_hoi": "Dân cư nông thôn nước ta hiện nay",
+        "cau_dung": "đang giữ gìn nhiều nghề truyền thống.",
+        "cau_sai": [
+            "tham gia chủ yếu trong lâm nghiệp.",
+            "có quy mô nhỏ hơn số dân thành thị.",
+            "có cơ cấu sinh học luôn rất ổn định."
+        ]
+    },
+    {
+        "cau_hoi": "Dân cư ở đồng bằng nước ta hiện nay",
+        "cau_dung": "phân bố đông đúc ở các thành phố lớn.",
+        "cau_sai": [
+            "làm việc chủ yếu ở ngành lâm nghiệp.",
+            "có chất lượng đồng đều ở nhiều vùng.",
+            "tất cả sống trong các khu công nghiệp."
+        ]
+    },
+    {
+        "cau_hoi": "Vùng núi Tây Bắc nước ta dân cư thưa thớt chủ yếu do",
+        "cau_dung": "địa hình hiểm trở, kinh tế chậm phát triển.",
+        "cau_sai": [
+            "có nhiều dân tộc ít người, sản xuất nhỏ.",
+            "nhiều thiên tai, công nghiệp còn hạn chế.",
+            "nhiều đất dốc, giao thông còn khó khăn."
+        ]
+    },
+    {
+        "cau_hoi": "Phát biểu nào sau đây đúng về cơ cấu dân số nước ta hiện nay?",
+        "cau_dung": "Thay đổi gắn với sự phát triển kinh tế.",
+        "cau_sai": [
+            "Cơ cấu tuổi đang có xu hướng trẻ hóa.",
+            "Ít thay đổi trong quá trình đô thị hóa.",
+            "Giữ ổn định về tỉ trọng qua nhiều năm."
+        ]
+    },
+    {
+        "cau_hoi": "Phân bố dân cư ở nước ta hiện nay có đặc điểm nào sau đây?",
+        "cau_dung": "Mật độ dân số khác nhau giữa các vùng.",
+        "cau_sai": [
+            "Tỉ lệ dân thành thị cao hơn nông thôn.",
+            "Tỉ lệ dân nông thôn có xu hướng tăng.",
+            "Dân cư sinh sống chủ yếu ở vùng núi."
+        ]
+    },
+    {
+        "cau_hoi": "Dân số Việt Nam đứng thứ ba Đông Nam Á sau các quốc gia",
+        "cau_dung": "In-đô-nê-xi-a và Phi-lip-pin.",
+        "cau_sai": [
+            "In-đô-nê-xi-a và Ma-lai-xi-a.",
+            "In-đô-nê-xi-a và Thái Lan.",
+            "In-đô-nê-xi-a và Mi-an-ma."
+        ]
+    },
+    {
+        "cau_hoi": "Dân cư ở ven biển nước ta hiện nay",
+        "cau_dung": "tham gia nhiều vào phát triển kinh tế biển.",
+        "cau_sai": [
+            "có mật độ cao nhất ở các cồn cát ven biển.",
+            "phân bố đều suốt chiều dài đường bờ biển.",
+            "chỉ tham gia vào sản xuất nông nghiệp."
+        ]
+    },
+    {
+        "cau_hoi": "Tốc độ già hóa trong dân số nước ta hiện nay đang diễn ra khá nhanh chủ yếu do",
+        "cau_dung": "tỉ suất sinh thô giảm, tuổi thọ trung bình tăng.",
+        "cau_sai": [
+            "tuổi thọ trung bình tăng, thành tựu của y tế.",
+            "gia tăng dân số chậm lại, mức sống tăng lên.",
+            "kinh tế phát triển, mức sinh thay thế rất thấp."
+        ]
+    },
+    {
+        "cau_hoi": "Phát biểu nào sau đây đúng về dân số nước ta hiện nay?",
+        "cau_dung": "Tỉ số giới tính khác nhau giữa các nhóm tuổi.",
+        "cau_sai": [
+            "Tăng dần tỉ trọng của dân số nhóm 0-14 tuổi.",
+            "Cơ cấu dân số có xu hướng trẻ hóa rất nhanh.",
+            "Không còn tình trạng mất cân bằng giới tính."
+        ]
+    },
+    {
+        "cau_hoi": "Nguyên nhân nào sau đây là chủ yếu làm cho nhóm từ 60 tuổi trở lên trong cơ cấu dân số nước ta ngày càng tăng?",
+        "cau_dung": "Mức sống được nâng lên, tỉ suất sinh giảm.",
+        "cau_sai": [
+            "Quy mô dân số đông, đẩy mạnh đô thị hóa.",
+            "Đẩy mạnh đô thị hóa, dịch vụ y tế phát triển.",
+            "Dịch vụ y tế phát triển, quy mô dân số đông."
+        ]
+    },
+    {
+        "cau_hoi": "Mức gia tăng dân số của nước ta có xu hướng giảm chủ yếu do nguyên nhân nào sau đây?",
+        "cau_dung": "Kết quả của chính sách dân số kế hoạch hóa gia đình.",
+        "cau_sai": [
+            "Tuyên truyền, giáo dục chính sách về dân số.",
+            "Dân số nước ta đang có xu hướng già hóa nhanh.",
+            "Ảnh hưởng của việc nâng cao chất lượng cuộc sống."
+        ]
+    },
+    {
+        "cau_hoi": "Tỉ suất sinh thô của dân số nước ta gần đây có xu hướng giảm chủ yếu do tác động của",
+        "cau_dung": "chính sách dân số hiệu quả và sự phát triển kinh tế.",
+        "cau_sai": [
+            "thay đổi phong tục tập quán, cơ cấu dân số già hóa.",
+            "giáo dục dân số, nhận thức của người dân chuyển biến.",
+            "môi trường đang ô nhiễm, điều kiện sống khó khăn."
+        ]
+    },
+    {
+        "cau_hoi": "Tỉ suất gia tăng giảm, cơ cấu dân số nước ta đang có xu hướng già hóa chủ yếu do",
+        "cau_dung": "kinh tế phát triển, mức sống tăng và chính sách dân số.",
+        "cau_sai": [
+            "độ tuổi sinh đẻ giảm, kinh tế phát triển, mức sống tăng.",
+            "tỉ suất sinh giảm, tỉ suất tử tăng, tuổi thọ trung bình tăng.",
+            "kinh tế phát triển,tâm lí ngại sinh con, chính sách dân số."
+        ]
+    },
+    {
+        "cau_hoi": "Nguyên nhân chủ yếu làm cho mức sống của các dân tộc còn chênh lệch là",
+        "cau_dung": "trình độ sản xuất của các dân tộc ở nước ta khác nhau.",
+        "cau_sai": [
+            "các dân tộc khác nhau về văn hóa, phong tục tập quản.",
+            "sự phân bố tài nguyên không đồng đều giữa các vùng.",
+            "do lịch sử định cư của các dân tộc ở nước ta mang lại."
+        ]
+    },
+    {
+        "cau_hoi": "Vùng núi và cao nguyên nước ta có dân cư thưa thớt chủ yếu là do",
+        "cau_dung": "giao thông khó khăn, kinh tế chậm phát triển, trình độ dân trí thấp.",
+        "cau_sai": [
+            "nhiều khoáng sản còn dưới dạng tiềm năng, khai thác rất khó khăn.",
+            "có lịch sử khai thác lãnh thổ lâu đời hơn so với các vùng đồng bằng.",
+            "quá trình đô thị hóa diễn ra chậm, ít các thành phố lớn và đông dân."
+        ]
+    },
+    {
+        "cau_hoi": "Cơ cấu dân số theo độ tuổi ở nước ta đang có sự biến đổi nhanh chóng chủ yếu do",
+        "cau_dung": "kết quả của chính sách dân số, đời sống ngày càng được nâng cao.",
+        "cau_sai": [
+            "kinh tế phát triển, tâm lí xã hội và phong tục tập quán được duy trì.",
+            "thành tựu trong văn hóa, giáo dục và y tế, tuổi thọ trung bình tăng.",
+            "tuổi thọ trung bình tăng, thành tựu trong y tế và xóa đói giảm nghèo."
         ]
     }
 ]
