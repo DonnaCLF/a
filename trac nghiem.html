@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài trắc nghiệm</title>
+    <link rel='stylesheet' href='./trac nghiem.css'>
+</head>
+<body>
+    <audio id="correct">
+        <source src="./sound/đúng.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="incorrect">
+        <source src="./sound/sai.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="regular">
+        <source src="./sound/lựa chọn.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="change_question">
+        <source src="./sound/sang trang.mp3" type="audio/mpeg">
+    </audio>
+    <div id="display">
+
+        <div id="util">
+            <a id ="back" href="./index.html">Quay lại</a>
+            <button id ="sfx_toggle"><img src="./images/music button.png" alt="Music"></button>
+        </div>
+
+        <p id="question"></p>
+        <div id="answers">
+            <button id ="answear_1" class="answer"></button>
+            <button id ="answear_2" class="answer"></button>
+            <button id ="answear_3" class="answer"></button>
+            <button id ="answear_4" class="answer"></button>
+        </div>
+        <div id="change_question">
+            <button id ="prev_question"><img src="./images/prev_button.png" alt="prev"></button>
+            <button id ="next_question"><img src="./images/next_button.png" alt="next"></button>
+        </div>
+    </div>  
+
+    <script src="./js/trac_nghiem.js" type="module"></script>
+</body>
+</html>
