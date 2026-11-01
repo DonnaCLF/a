@@ -1,0 +1,26 @@
+[
+    {
+        "tieu_de": "Bài 3: Sự phân hóa đa dạng của thiên nhiên",
+        "chu_thich": "Trắc nghiệm 4 phương án - 52 câu",
+        "noi_dung": "bai 3"
+    },
+    {
+        "tieu_de": "Bài 5: Vấn đề sử dụng hợp lí tài nguyên thiên nhiên",
+        "chu_thich": "Trắc nghiệm 4 phương án - 36 câu",
+        "noi_dung": "bai 5"
+    },
+    {
+        "tieu_de": "Bài 7: Dân số Việt Nam",
+        "chu_thich": "Trắc nghiệm 4 phương án - 27 câu",
+        "noi_dung": "bai 7"
+    },
+    {
+        "tieu_de": "Làm hết toàn bộ câu hỏi của cả 3 bài",
+        "chu_thich": "Trắc nghiệm 4 phương án - 115 câu",
+        "noi_dung": [
+            "bai 3",
+            "bai 5",
+            "bai 7"
+        ]
+    }
+]
