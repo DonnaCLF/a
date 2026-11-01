@@ -92,7 +92,7 @@ class BaiTap {
                                         <span class="details">${this.description}</span>
                                     </div>
                                 </div>
-                                <a href="./trac nghiem.html?${this.data}"><img src="../images/play_button.png" alt="${this.title}"></a>
+                                <a href="./trac nghiem.html?${this.data}"><img src="./images/play_button.png" alt="${this.title}"></a>
                                 `
         e[5].appendChild(this.element);
     }

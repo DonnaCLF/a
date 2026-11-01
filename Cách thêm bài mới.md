@@ -5,7 +5,7 @@ Cách thêm bài mới:
     <summary>Cấu trúc file</summary>
 
       **Note:** Tên file không được chứa kí tự `%`
-      ```json
+      ```
       [
         {
           "tieu_de": "<Tiêu đề bài 1>",
@@ -46,7 +46,7 @@ Cách thêm bài mới:
     <details>
     <summary>Cấu trúc file</summary>
 
-      ```json
+      ```
       [
         {
           "cau_hoi": "<Câu hỏi 1>",
