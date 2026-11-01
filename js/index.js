@@ -86,7 +86,7 @@ class BaiTap {
     displayBlock(){
         this.element.innerHTML = `
                                 <div class="description">
-                                    <img src="../images/hình trang trí.png">
+                                    <img src="./images/hình trang trí.png">
                                     <div>
                                         <span>${this.title}</span><br>
                                         <span class="details">${this.description}</span>
