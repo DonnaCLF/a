@@ -86,13 +86,13 @@ class BaiTap {
     displayBlock(){
         this.element.innerHTML = `
                                 <div class="description">
-                                    <img src="./images/hình trang trí.png">
+                                    <img src="./images/hình trang trí${common.darkMode ? " dark" : ""}.png">
                                     <div>
                                         <span>${this.title}</span><br>
                                         <span class="details">${this.description}</span>
                                     </div>
                                 </div>
-                                <a href="./trac nghiem.html?${this.data}"><img src="./images/play_button.png" alt="${this.title}"></a>
+                                <a href="./trac nghiem.html?${this.data}"><img src="./images/play button${common.darkMode ? " dark" : ""}.png" alt="${this.title}"></a>
                                 `
         e[5].appendChild(this.element);
     }
@@ -105,6 +105,5 @@ e[2][1].addEventListener("click", tab3);
 const data = [,,];
 data[0] = await common.gattherData("./địa/danh_sach.json", data => new BaiTap(data.tieu_de, data.chu_thich, "địa", data.noi_dung));
 data[1] = await common.gattherData("./sử/danh_sach.json", data => new BaiTap(data.tieu_de, data.chu_thich, "sử", data.noi_dung));
-console.log(data)
 
 tab1();
