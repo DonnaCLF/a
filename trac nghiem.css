@@ -224,7 +224,7 @@ img {
 
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
 
     body{
         background-color: #202024;
@@ -248,4 +248,4 @@ img {
     #back:hover {
         background-color: black;
     }
-}
+} */
