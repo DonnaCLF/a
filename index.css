@@ -265,7 +265,7 @@ p {
 
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
 
     body, button {
         background-color: #202024;
@@ -297,4 +297,4 @@ p {
     #content {
         scrollbar-color: #ccccce #202024;
     }
-}
+} */

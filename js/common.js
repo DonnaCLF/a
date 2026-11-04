@@ -1,4 +1,5 @@
-export const darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+// export const darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+export const darkMode = false;
 export const mobileUI = window.matchMedia('(max-aspect-ratio: 1/1)').matches;
 export let SFX = true;
 
