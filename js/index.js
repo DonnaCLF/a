@@ -3,28 +3,30 @@ import * as common from './common.js'
 let e = [[document.querySelector("#dia_ly .active"), document.querySelector("#dia_ly .inactive")],
         [document.querySelector("#lich_su .active"), document.querySelector("#lich_su .inactive")],
         [document.querySelector("#information .active"), document.querySelector("#information .inactive")],
+        [document.querySelector("#dark_mode img"), document.querySelector("#sfx_toggle img")],
         document.getElementById("tittle"),
         document.getElementById("regular"),
         document.getElementById("content")
 ]
 
 function tab1() {
-    e[4].play()
+    if (common.SFX) e[5].play();
+
     e[0][0].style.display = "inline-block";
     e[0][1].style.display = "none";
     e[1][0].style.display = "none";
     e[1][1].style.display = "inline-block";
     e[2][0].style.display = "none";
     e[2][1].style.display = "inline-block";
-    e[3].textContent = "Địa lý";
+    e[4].textContent = "Địa lý";
 
-    e[5].replaceChildren();
-    data[0].forEach(item => item.displayBlock());
-    e[5].style.width = "85%";
+    e[6].replaceChildren();
+    data[0].forEach(item => e[6].appendChild(item.element));
+    e[6].style.width = "85%";
 }
 
 function tab2() {
-    e[4].play()
+    if (common.SFX) e[5].play();
 
     e[0][0].style.display = "none";
     e[0][1].style.display = "inline-block";
@@ -33,15 +35,15 @@ function tab2() {
     e[2][0].style.display = "none";
     e[2][1].style.display = "inline-block";
 
-    e[3].textContent = "Lịch sử";
+    e[4].textContent = "Lịch sử";
 
-    e[5].replaceChildren();
-    data[1].forEach(item => item.displayBlock());
-    e[5].style.width = "85%";
+    e[6].replaceChildren();
+    data[1].forEach(item => e[6].appendChild(item.element));
+    e[6].style.width = "85%";
 }
 
 function tab3() {
-    e[4].play()
+    if (common.SFX) e[5].play();
 
     e[0][0].style.display = "none";
     e[0][1].style.display = "inline-block";
@@ -50,11 +52,11 @@ function tab3() {
     e[2][0].style.display = "inline-block";
     e[2][1].style.display = "none";
 
-    e[3].textContent = "Thông tin";
+    e[4].textContent = "Thông tin";
 
-    e[5].replaceChildren();
-    e[5].style.width = "90%";
-    e[5].innerHTML = `
+    e[6].replaceChildren();
+    e[6].style.width = "90%";
+    e[6].innerHTML = `
         <p>Xin chào, chào mừng bạn đã đến với phần thông tin của cái web này. Tôi không biết tại sao bạn lại ấn vào đây, có thể là vì tò mò hoặc cũng có thể là vì nhấn nhầm. Dù thế nào thì cũng chào mừng.</p>
 
         <p>Tôi là người lên ý tưởng và thiết kế cái web này (không phải người code), có thể các bạn biết tôi là ai hoặc có thể không. Tôi không biết cái web này sẽ bay được đi xa đến đâu vì tôi biết kiểu gì các bạn cũng sẽ truyền cho nhau ôn tập mà, cứ thoải mái đi không sao đâu. Cho những người biết tôi là ai, làm ơn đừng nói tên tôi ra, biết thì biết thôi. Cho những người không biết tôi là ai, làm ơn đừng cố gắng tìm hiểu.</p>
@@ -73,17 +75,28 @@ function tab3() {
     `
 }
 
+function dark_mode() {
+    common.dark_mode_toggle();
+    if (common.darkMode) {
+        e[3][0].src = "./images/moon.png";
+        e[3][1].src = `./images/loa${common.SFX ? "" : " mute"} dark.png`;
+    } else {
+        e[3][0].src = "./images/sun.png";
+        e[3][1].src = `./images/loa${common.SFX ? "" : " mute"}.png`;
+    }
+    data[0].forEach(data => data.toggle_dark_mode());
+    data[1].forEach(data => data.toggle_dark_mode());
+}
 
 class BaiTap {
     constructor(title, description, subject, data) {
+
         this.title = title;
         this.description = description === undefined ? '' : description;
-        this.data = (Array.isArray(data)) ? `${subject.toLowerCase()}%^%[${data.toString().replaceAll(",","%&")}%]`: subject.toLowerCase() + "%^" + data;
-        this.element = document.createElement('div');
-        this.element.classList.add('box');
-    }
 
-    displayBlock(){
+        this.data = (Array.isArray(data)) ? `${common.localStore ? "" : `%u${common.darkMode ? "t" : "f"}${common.SFX ? "t" : "f"}`}${subject.toLowerCase()}%^%[${data.toString().replaceAll(",","%&")}%]`: subject.toLowerCase() + "%^" + data;
+
+        this.element = document.createElement('div');
         this.element.innerHTML = `
                                 <div class="description">
                                     <img src="./images/hình trang trí${common.darkMode ? " dark" : ""}.png">
@@ -94,16 +107,28 @@ class BaiTap {
                                 </div>
                                 <a href="./trac nghiem.html?${this.data}"><img src="./images/play button${common.darkMode ? " dark" : ""}.png" alt="${this.title}"></a>
                                 `
-        e[5].appendChild(this.element);
+        this.element.classList.add('box');
+    }
+
+    toggle_dark_mode(){
+        this.element.querySelector(".description img").src = `./images/hình trang trí${common.darkMode ? " dark" : ""}.png`;
+        this.element.querySelector("a img").src = `./images/play button${common.darkMode ? " dark" : ""}.png`;
     }
 }
 
 e[0][1].addEventListener("click", tab1);
 e[1][1].addEventListener("click", tab2);
 e[2][1].addEventListener("click", tab3);
+document.getElementById("dark_mode").addEventListener("click", dark_mode);
+document.getElementById("sfx_toggle").addEventListener("click", () => {
+                                                                    common.sfx_toggle();
+                                                                    e[3][1].src = `./images/loa${common.SFX ? "" : " mute"}${common.darkMode ? " dark" : ""}.png`;
+                                                                });
 
 const data = [,,];
 data[0] = await common.gattherData("./địa/danh_sach.json", data => new BaiTap(data.tieu_de, data.chu_thich, "địa", data.noi_dung));
 data[1] = await common.gattherData("./sử/danh_sach.json", data => new BaiTap(data.tieu_de, data.chu_thich, "sử", data.noi_dung));
 
 tab1();
+dark_mode();
+dark_mode();

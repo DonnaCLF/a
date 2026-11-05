@@ -1,25 +1,25 @@
 import * as common from "./common.js"
 
-function change_question(is_next, question, answering_list, id){
+function change_question(is_next, id){
     if (!is_next && id == 0 || is_next && id == baiTracNghiem.length - 1) return id;
     if (common.SFX) sfx[3].play();
     if (is_next) id++; else id--;
-    if (id in answering_list) { question.display_color(answering_list[id]); }
-    else { question.display_raw(true); }
+    if (id in answers) { baiTracNghiem[id].display_color(answers[id]); }
+    else { baiTracNghiem[id].display_raw(true); }
     question_id_element.forEach(element => element.textContent = `Câu ${id+1}/${baiTracNghiem.length}`);
     return id;
 }
 
-function answerHandling(id, chosen, question, answering_list, sfx) {
-    if (!Object.hasOwn(answering_list, id)) {
+function answerHandling(id, chosen, sfx) {
+    if (!Object.hasOwn(answers, id)) {
         if (common.SFX)
-            if (question.display_color(chosen)) sfx[0].play();
+            if (baiTracNghiem[id].display_color(chosen)) sfx[0].play();
             else sfx[1].play();
-        else question.display_color(chosen);
-        answering_list[id] = chosen;
+        else baiTracNghiem[id].display_color(chosen);
+        answers[id] = chosen;
         document.getElementById(`answear_${id+1}`)
     }
-    return question, answering_list;
+    return baiTracNghiem[id], answers;
 }
 
 const answer_elements = []
@@ -70,7 +70,6 @@ class Cauhoi {
                 while (answer_elements[i][0].scrollHeight > answer_elements[i][0].clientHeight && size > 75) {
                     size -= 35;
                     answer_elements[i][0].style.fontSize = `${size}%`;
-                    console.log(`${answer_elements[i][0].scrollHeight}, ${answer_elements[i][0].clientHeight}`)
                 }
 
             } else answer_elements[i][0].style.fontSize = "150%";
@@ -105,6 +104,11 @@ class Cauhoi {
 
 async function gatherring(txt){
     txt = txt.slice(1)
+    if (txt.charAt(1) === "u") {
+        if (txt.charAt(2) === "t" && !common.darkMode) dark_mode();
+        if (txt.charAt(3) === "t" && !common.SFX) sfx_toggle(); 
+        txt = txt.slice(4);
+    }
     txt = txt.split("%^")
     if (txt[1].startsWith("%[")) {
 
@@ -138,14 +142,26 @@ function shuffle_question(list) {
     return list;
 }
 
-if (common.darkMode) {
-    document.querySelector("#prev_question img").src = "./images/prev_button_dark.png";
-    document.querySelector("#next_question img").src = "./images/next_button_dark.png";
-    document.querySelector("#sfx_toggle img").src = "./images/loa dark.png"
-} else {
-    document.querySelector("#prev_question img").src = "./images/prev_button.png";
-    document.querySelector("#next_question img").src = "./images/next_button.png";
-    document.querySelector("#sfx_toggle img").src = "./images/loa.png"
+function dark_mode() {
+    common.dark_mode_toggle();
+    if (common.darkMode) {
+        document.querySelector("#prev_question img").src = "./images/prev_button_dark.png";
+        document.querySelector("#next_question img").src = "./images/next_button_dark.png";
+        document.querySelector("#dark_mode img").src = "./images/moon.png";
+        document.querySelector("#sfx_toggle img").src = `./images/loa${common.SFX ? "": " mute"} dark.png`;
+    } else {
+        document.querySelector("#prev_question img").src = "./images/prev_button.png";
+        document.querySelector("#next_question img").src = "./images/next_button.png";
+        document.querySelector("#dark_mode img").src = "./images/sun.png";
+        document.querySelector("#sfx_toggle img").src = `./images/loa${common.SFX ? "": " mute"}.png`;
+    }
+    if (id in answers) { baiTracNghiem[id].display_color(answers[id]); }
+    else { baiTracNghiem[id].display_raw(true); }
+}
+
+function sfx_toggle() {
+    common.sfx_toggle();
+    document.querySelector("#sfx_toggle img").src = `./images/loa${common.SFX ? "": " mute"}${common.darkMode ? " dark" : ""}.png`;
 }
 
 let id = 0;
@@ -155,18 +171,23 @@ let sfx = [document.getElementById("correct"), document.getElementById("incorrec
 var baiTracNghiem = await gatherring(location.search);
 
 function answer(chosen) {
-    baiTracNghiem[id], answers = answerHandling(id, chosen, baiTracNghiem[id], answers, sfx);
+    baiTracNghiem[id], answers = answerHandling(id, chosen, sfx);
 }
 
 baiTracNghiem[id].display_raw(true);
 
-document.getElementById("next_question").addEventListener("click", () => id = change_question(true, baiTracNghiem[id+1], answers, id));
-document.getElementById("prev_question").addEventListener("click", () => id = change_question(false, baiTracNghiem[id-1], answers, id));
+document.getElementById("next_question").addEventListener("click", () => id = change_question(true, id));
+document.getElementById("prev_question").addEventListener("click", () => id = change_question(false, id));
+
+document.getElementById("dark_mode").addEventListener("click", dark_mode);
 
 for (let i = 0; i < 4; i++) {
     document.getElementById(`answear_${i+1}`).addEventListener("click", () => answer(i));
 }
-document.getElementById("sfx_toggle").addEventListener("click", common.sfx_toggle);
+document.getElementById("sfx_toggle").addEventListener("click", sfx_toggle);
 document.getElementById("back").addEventListener("click", () => { if (common.SFX) sfx[2].play()});
 
 question_id_element.forEach(element => element.textContent = `Câu 1/${baiTracNghiem.length}`);
+
+dark_mode();
+dark_mode();
