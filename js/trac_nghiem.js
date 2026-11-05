@@ -119,7 +119,7 @@ async function gatherring(txt){
 
         for (let i = 0; i < txt[1].length; i++)
 
-            list.push(...await common.gattherData(`${txt[0]}/data/${txt[1][0]}.json`, (data) => {
+            list.push(...await common.gattherData(`${txt[0]}/data/${txt[1][i]}.json`, (data) => {
                     data = new Cauhoi(data.cau_hoi, data.cau_dung, data.cau_sai);
                     data.shuffle();
                     return data;
